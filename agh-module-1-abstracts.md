@@ -21,9 +21,13 @@ The short-term donation-funding model of INGOs stands at odds with the requireme
 
 ##### Global Civil Society
 
+The chapter charts illustrate many of the points made in the NCCS slideshow brought up. Non-profits should not be written off as part of the global economy in terms of production, employment, or finance. This is no doubt because Nonprofits supplement the failure of states at providing basic human welfare services to their populations -- not just in the global south, but in industrialised nations as well. They operate worldwide in many diverse fields, and the trend over time has been the "de-Americanisation" of NGOs. Nonprofits generate their revenue primarily through fees and public support rather than philanthropic donations, although some country's non-profit sectors skew more towards public grants than others. For volunteer-centric non-profits, philanthropy accounts for much more revenue. In the '90s, the non-profit sector's employment grew faster than the overall economy, mostly in health and social services.
 
+I can't help but notice how all of this coincides with the neoliberal turn -- and how, shockingly, private charity of the wealthy was never as important as transactional fees or public support to keep non-profits running.
 
 ##### Worth - Overview of the Non Profit Sector
+
+Beginning with a survey of the Non-profits present in DC, it becomes immediately clear that the line between non-profit and for-profit is difficult to discern; both are closely entangled with one another, the state, private philanthropy, and customers.
 
 ##### Spence
 
