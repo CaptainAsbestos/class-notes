@@ -1,5 +1,7 @@
 # Module I: Introduction & Background
+
 ##  Alex Horne
+
 PS 5275 NGOs & Non-Profits \
 21 May, 2021
 
@@ -38,6 +40,8 @@ Nomenclature aside, there are substantial differences between the various genera
 Within the discourse, many are not thrilled with the professionalisation and commercialisatino of non-profit work. Business methods may improve operational independence at the expense of the mission's priorities. Others argue that empowerment rather than redistribution makes lasting change. If you ask me, I see no reason why it has to be one or the other.
 
 ### Spence
+
+No lorem ipsum
 
 ### Sinek
 
