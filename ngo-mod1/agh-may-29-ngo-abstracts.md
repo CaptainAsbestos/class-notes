@@ -13,7 +13,13 @@ Renz moves on to describe the structures and characteristics of governing boards
 
 Negligent or careless officers on the board are at best unhelpful, at worst a liability to the rest of the organisation, and as such can be sanctioned for the good of the non-profit. Renz gives extra attention to conflicts of interests; such conflicts are unavoidable, but disclosing conflicts and removing the conflicted party from deliberation and decision is expected.
 
+### Armstrong, 1998
+
 ### Pew, 2007
+
+### Caldwell, 2010
+
+### NGOTips, 2011
 
 ### Writing Op-Eds
 
