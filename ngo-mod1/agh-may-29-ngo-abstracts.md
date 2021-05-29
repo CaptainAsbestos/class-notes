@@ -30,3 +30,15 @@ The Lede grabs the attention of the reader and draws them to read the rest of th
 When submitting an editorial, consider which outlet offers the best platform to influence the minds you want to change. National newspapers are prestigious, but an Op-Ed about Public Transportation in Southern Nashville does more good at the local level than the national. Check in with editors without appearing demanding or presumptuous, but be wary of building a reputation as a crank or fool who has nothing interesting to say . Have a backup in the event it is rejected, and don't submit to more than one paper in the same market region. 
 
 A study of the Washington Post in 2008 found that women are far less likely to have their Op-Ed; one can only hope things have improved since then. Op-Ed Project offers resources and workshops for people to hone their skills.
+
+### Bowman 
+
+Bowman says that asking someone to do something gets a better result than simply ordering them. Missions and projects succeed when volunteers and workers feel a sense of ownership, a "buy-in", to the task at hand. Positive motivations are preferable to fear of negative consequences.
+
+### Spence
+
+Spence differentiates between leadership and management. Management is more of a one-on-one interaction, whereas leadership is a broader relationship with far more people. Leadership requires confidence and the ability to honestly reckon with self-doubt in the view of followers; management requires strong interpersonal skills to make sure a team can continue to function well.
+
+### Dudley
+
+
