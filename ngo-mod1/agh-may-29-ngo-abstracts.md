@@ -41,4 +41,8 @@ Spence differentiates between leadership and management. Management is more of a
 
 ### Dudley
 
+Dudley's lollipop anecdote reveals that leadership on a low, interpersonal level can make an enormous difference in a single person's life. Becoming aware of our potential to change each other's lives for the better prevents us from recognising our potential as leaders, and Dudley believes that more of us have the ability to lead than we think.
 
+### Krieger 
+
+First off, Krieger tells organisations forming a governing board to clarify the purpose and scope of their work is. Selecting an executive to run the organisation comes next, and the decision should be made as a consensus of the board on who the best qualified candidate is. The board should continue to evaluate the performance of the Executive officer, giving them the support and information they need to work effectively. As part of the vision of the organisation, the governing board should work with the executive to plan the organisation's activities, bylaws, and values. Board officers are also responsible for adequate resources (such as fundraising and social capital) for the organisation to carry out its endeavour. Board members should also have some skin in the game, so to speak, to show they take the organisation's mission seriously, either as a time-commitment or donation.  
