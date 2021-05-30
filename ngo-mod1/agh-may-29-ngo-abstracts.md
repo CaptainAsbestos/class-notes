@@ -27,7 +27,15 @@ Armstrong writes that even with a sound strategy and purpose, implementing a pla
 
 ### Pew, 2007
 
+The researchers found that board officers often feel listless and inconsequential in their work, especially because of their legal obligations to external oversight. According to the authors, officers think in three ways: as a fiduciary overseer, a strategic planner, and as a "generative sense-maker" for the organisation's mission. The last type was the focus of this presentation.
+
+Generative thinking frames the problem first, and the framing cuts off some solutions from consideration. Often-times, governing boards do not participate in this process, and miss part of their other duties. The researcher described four more models for governance (by default, by fiat, by the CEO, and shared governance), and the diverging perspectives of staff vis-à-vis board members revealed no consensus on who is actually in the leadership position. In board meetings, the researchers recommend restructuring the agenda to disrupt the routine and spur people into new thinking. CEOs should also get used to power-sharing rather than approval-seeking. Getting the board officers out of their chambers and talking to staff or other governing boards helps for comparing notes and best practices.
+
+In the Q&A at the end, the presenters clarified that board members occupy a liminal perspective within an organisation, and that they ought to be involved in decision making but not micro-manage the staff. All board members have different strengths and excel in different roles, but all of them should do some of every role at some point. Even mature governing boards have moments for generative thinking, so the advice of this presentation is useful to them as well. For oversight and accountability mechanisms such as term-limits, they are only useful if there is a clear intention and explanation for why they exist. Otherwise, they are just a band-aid for an unrelated problem. 
+
 ### Caldwell, 2010
+
+The number of global NGOs had grown substantially in the years leading to 2010,
 
 ### NGOTips, 2011
 
@@ -39,7 +47,7 @@ Op-Eds, being aimed at a general lay audience, are best written in plain languag
 
 Before one writes an editorial, it not only helps to ask oneself why the reader should listen to your opinion but also to remain confident in one's expertise. Novelty of thinking is also good here: to make a contribution to the discourse on the topic. Lastly, basing the argument on credible, verifiable evidence is always preferable to speculation.
 
-The authors present the most basic skeleton of an Op-Ed. The hook relates to current events that make the piece timely and relevant; this seques into the thesis statement of the argument. The Rule of Three keeps the piece long enough to be substantive but short enough to be digestible; three conclusions derived from evidence support the thesis. Before concluding, anticipate counterarguments to your points. Put a bow on it by circling back to the lede. 
+The authors present the most basic skeleton of an Op-Ed. The hook relates to current events that make the piece timely and relevant; this segues into the thesis statement of the argument. The Rule of Three keeps the piece long enough to be substantive but short enough to be digestible; three conclusions derived from evidence support the thesis. Before concluding, anticipate counterarguments to your points. Put a bow on it by circling back to the lede. 
 
 The Lede grabs the attention of the reader and draws them to read the rest of the article. There are many ways to do this, either by ripping from the headlines or relating a personal or humourous anecdote in the back of the cab (as Thomas Friedman too often does). 
 
