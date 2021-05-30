@@ -15,6 +15,10 @@ Negligent or careless officers on the board are at best unhelpful, at worst a li
 
 ### Armstrong, 1998
 
+Armstrong writes that there is no consensus on *which* model of governing boards is best, only that there are various ones which are better suited to some NFPs than others. Hybrid structures, blending specific elements for a specific org, show merit. Real-world case-studies demonstrate that no matter the theoretical soundness of a particular arrangement or charter, boards never operate as imagined, so accepting this fact and working to accomodate it is key to success. A mix-and-match approach only works when it doesn't directly conflict with the existing corporate culture at the NFP and on the board itself. Armstrong is writing on the tail end of a major shift in the non-profit sector, when governing boards became focused on good governance as an aim of its own. 
+
+On two axes -- Unitary/Pluralistic Vison & Stability/Innovation -- Armstrong plots four types of governance models for boards: Corporate, Emergent Cellular, Constituency, and Policy Governance. 
+
 ### Pew, 2007
 
 ### Caldwell, 2010
