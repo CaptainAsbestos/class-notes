@@ -35,11 +35,21 @@ In the Q&A at the end, the presenters clarified that board members occupy a limi
 
 ### Caldwell, 2010
 
-The number of global NGOs had grown substantially in the years leading to 2010,
+The number of global NGOs had grown substantially in the years leading to 2010. Even as INGO and TAN membership expands southward, most board members still come from the Global North. In response, many have taken steps to decentralise leadership or recruit board members from underrepresented backgrounds. INGO Alliances have also pioneered transnational fundraising, but they recognise the need for national partners to develop financial independence in the long-term. With the growing number of alliance networks, keeping all sister-organisations dedicated to the same principles and mission is key, and local NGOs "falling off the band wagon" is a worrying problem. Members and elected committees can feel excluded from participation as work in these Alliances becomes more professionalised; some groups are taking measures to prevent that feeling of alienation. The question of accountability remains paramount, and INGOs are hiring independent auditors or conducting self-evaluation to assess their performance and conduct.
 
 ### NGOTips, 2011
 
+NGOTips offers a clear distinction between Governance and Management: a board governs, a staff manages. The board provides purpose, direction, and oversight for an organisation's activities; the staff implements the boards mandates on a day-to-day basis. NGOTips joins the chorus of those comparing donors to financial stakeholders, and not without cause: people want to know their charitable donation isn't being squandered. The author repeats much of the same which Renz discusses about the role and duties of a governing board. However, in the international sphere, it's important to recognise that these principles and even the words don't necessarily translate perfectly; adapting what good governance means to each location should be expected. Ensuring local buy-in for good governance practices is also essential, as is realistic expectations for success and time frame.
+
+Donor organisations from the Global North are in the position to financially discipline the national organisations in the Developing World, like it or not. That doesn't mean it has to be adversarial: emphasising one-on-one relationships, clearly stating expectations and milestones, and offering training keeps the relationship between partner organisations across borders positive.
+
 ### Writing Op-Eds
+
+Op-Eds, so named for being the "opposite" face of the "editorial" page, are an arena for public writers to reach a broad audience. Newspapers deliberately select a diverse array of writers with conflicting view points, hoping to expose their readers to unorthodox ideas. As an editorial, Op-Eds are supposed to have an ideological bent distinct from standard journalism. This should not be at the cost of factual correctness and good faith.
+
+For the structure of an Op-Ed, the author suggests two-thirds on describing a problem, and one-third about prescribing a solution. Begin with a Lede that makes the piece timely and relevant. Strict word-counts have to be observed, since Op-Ed writers don't have the luxury of a dedicated column and editor to trim the fat.
+
+
 
 ### Op-Ed Project: Tips & Tricks
 
