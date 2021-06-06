@@ -34,4 +34,12 @@ Good Measurement practices lead to better operational results and greater confid
 
 Putting a "human face" on data in combination with aggregated data can persuade both the stastically minded grant-writers as well hold the attention of those who aren't predisposed to pour over numbers and figures. 
 
+## Decision Memos
+
+A decision memo is a do-or-die style policy memo. They are short, to the point, and straightforward; they should only be employe in emergencies or when new information radically changes the situation. 
+
+Key to succes is clarity of thought and message. The form is the content, and a standard layout prevents any misperceptions about the topic, addressee, and author. It follows the typical policy paper layout of executive summary, background, policy menu, then recommendation, but each section is much more condensed so that it fits on two faces of a page. 
+
+## Legislative Histories
+
 
