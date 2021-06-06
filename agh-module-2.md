@@ -16,21 +16,8 @@ After arriving at a vision for the organisation and assessing one's strategic po
 
 ## Jones 2011
 
-Good Measurement practices lead to better performance, better access to funds, and
+Good Measurement practices lead to better operational results and greater confidence in an organisation from its donors. Despite this, most NFPs do not self-evaluate as much as they could. Lack of time, funds, expertise, personnel, and training are cited as reasons why, but Jones argues that self-evaluation is, on the contrary, easy, fulfilling, and not as expensive as it can seem.
 
-what obstacles exist to good self evaluation?
-- no time
-- no funds
-- no expertise
-- no staff
-- no training
-- most NFPs report that they are unable to effectively self-evaluate
+*Cultural* hostility to self-evaluation within an org is the first problem to be resolved; Jones wants NFPs to embrace data positively rather than employing it as a whip. Secondly, *clarifying* the organisation's mission and what needs to get evaluated. By creating a causal chain for a program or partnership (the five-whys-deep), an organisation can identify what can be and needs to be measured as an index of success (or failure). Once the measure of success or failure is clear, then data *capture* can be either outsourced to consultants (although in the interests of cost and long-term sustainability, Jones says it's worth it to build internal survey methods using software resources most groups already have). After data has been accumulated, *communicating* the findings to stakeholders can maximise the impact it can have in persuading minds. Lastly, use self-evaluation to *change* what needs to be improved and *celebrate* what has proven successful.
 
-Jones argues that self-evaluation is, on the contrary, easy, fulfilling, and not as expensive as it can seem
-
-*Cultural* hostility to self-evaluation within an org is the first problem to be resolved; Jones wants NFPs to embrace data positively rather than employing it as a whip. Secondly, *clarifying* the organisation's mission and what needs to get evaluated. By creating a causal chain for a program or partnership (the five-whys-deep), an organisation can identify what can be and needs to be measured as an index of success (or failure). Once the measure of success or failure is clear, then data *capture* can be either outsourced to consultants (although in the interests of cost and long-term sustainability, Jones says it's worth it to build internal survey methods). 
-
-Clarify
-Capture 
-Communicate
-Change/Celebrate
+Putting a "human face" on data in combination with aggregated data can persuade both the stastically minded grant-writers as well hold the attention of those who aren't predisposed to pour over numbers and figures. 
