@@ -12,4 +12,25 @@ The ends and needs of NFP work requires translating the priorities and methods o
 
 Ian MacMillan's framework, rather than translate for-profit archetypes to NFP work, begins with assumptions about NFPs reasons for existing and operating (as distinct from for-profit entities). Along three axes -- program-attractiveness, competitive-position, and alternative-coverage -- organisations weigh their strategic options, leading to eight different strategies, listed on pp. 92-3. Depending on which position an NFP finds itself in, Macmillan counsels either expanding operations, divesting, or collaborating with others -- strategies which would not be evident within a for-profit model.
 
+After arriving at a vision for the organisation and assessing one's strategic position, making plans to accomplish the strategic goals comes next. Consultation with external advisors, internal staff, and the community served can be useful at this point, although staff may have a personal stake in alternatives or the status quo. Existing commitments or shortage of resources can limit the scope of any change, so assessing the landscape for change needs to happen first.
 
+## Jones 2011
+
+Good Measurement practices lead to better performance, better access to funds, and
+
+what obstacles exist to good self evaluation?
+- no time
+- no funds
+- no expertise
+- no staff
+- no training
+- most NFPs report that they are unable to effectively self-evaluate
+
+Jones argues that self-evaluation is, on the contrary, easy, fulfilling, and not as expensive as it can seem
+
+*Cultural* hostility to self-evaluation within an org is the first problem to be resolved; Jones wants NFPs to embrace data positively rather than employing it as a whip. Secondly, *clarifying* the organisation's mission and what needs to get evaluated. By creating a causal chain for a program or partnership (the five-whys-deep), an organisation can identify what can be and needs to be measured as an index of success (or failure). Once the measure of success or failure is clear, then data *capture* can be either outsourced to consultants (although in the interests of cost and long-term sustainability, Jones says it's worth it to build internal survey methods). 
+
+Clarify
+Capture 
+Communicate
+Change/Celebrate
