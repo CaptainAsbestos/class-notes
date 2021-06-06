@@ -20,7 +20,7 @@ Next, the authors discuss the alternative "emergent" strategy, based on empirica
 
 ## Ebrahim, 2010
 
-
+The literature describes "accountability" with varying emphasis on four core tenets: transparency, answerability, compliance, and enforcement. Ebrahim writes that managing competing accountability-demands is better than perfect accountability to everyone about everything all the time. Determining to whom an org is accountable and for what they are owed accountability is the task of the leadership. Disclosure, self-evaluation and -regulation are the most widely used mechanisms for ensuring accountability, but Ebrahim also adds participation and adaptive learning. By participation, he means 
 
 ## WOSU 2011
 
