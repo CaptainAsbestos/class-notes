@@ -20,7 +20,11 @@ Next, the authors discuss the alternative "emergent" strategy, based on empirica
 
 ## Ebrahim, 2010
 
-The literature describes "accountability" with varying emphasis on four core tenets: transparency, answerability, compliance, and enforcement. Ebrahim writes that managing competing accountability-demands is better than perfect accountability to everyone about everything all the time. Determining to whom an org is accountable and for what they are owed accountability is the task of the leadership. Disclosure, self-evaluation and -regulation are the most widely used mechanisms for ensuring accountability, but Ebrahim also adds participation and adaptive learning. By participation, he means 
+The literature describes "accountability" with varying emphasis on four core tenets: transparency, answerability, compliance, and enforcement. Ebrahim writes that managing competing accountability-demands is better than perfect accountability to everyone about everything all the time. Determining to whom an org is accountable and for what they are owed accountability is the task of the leadership: Either their members or the constituents they serve, owing them good governance, financial trustworthiness, and successful mission outcomes. Disclosure, self-evaluation and -regulation are the most widely used mechanisms for ensuring accountability, but Ebrahim also adds participation and adaptive learning.
+
+By participation, he refers to the variable decision-making authority vested in the few versus the many. The power imbalance between a community and the organisation serving them in many cases can be remedied by anonymised feedback, public hearings, and participatory funding. By adaptive learning, Ebrahim means institutionalising opportunities for reflection and self-assessment so that accountability is part of the org's culture, rather than a reflex to avoid scandal. 
+
+A carrot-and-stick approach might create the unintended consequence of punishing honest reflection while rewarding exaggerated successes. Traditional approaches excel at "upward accountability" but are not as useful for "downward" accountability. Fortunately, grantee-perception surveys and community input are low-risk ways to develop downward accountability.
 
 ## WOSU 2011
 
