@@ -24,7 +24,9 @@ Development Directors are the senior staff-members who oversee an organisation's
 
 First, the position's turnover is high and vacancies tend to be long, and not just because there is a scarcity of talented fund-raisers. Many dev-directors have little interest in a career in that work. The upshot is that fund-raising know-how is never organisation-specific, leading to inconsistent donor-bases. 
 
-Second, the talent pool of development candidates is shallow and of uneven quality. Smaller NFPs can't attract competent directors as easily as large ones, and many Executive Directors' appraisals of their development director are not favourable.
+Second, the talent pool of development candidates is shallow and of uneven quality. Smaller NFPs can't attract competent directors as easily as large ones, and many Executive Directors' appraisals of their development director are not favourable. A quarter of all previous dev-directors were fired for inadequate performance or misfit with the organisation's culture. The problems compound as an organisation's size diminishes.
+
+However, it's not enough to chalk up these grim realities to the labour market: fund-raising doesn't happen in a vacuum, and even a competent development director will produce mediocre results without the proper organisational tools.
 
 ## Knowing When
 
