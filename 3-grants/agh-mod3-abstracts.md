@@ -18,10 +18,16 @@ Were she to redo her first job as a NFP fundraiser, she would begin by first und
 
 The final section is a "Dos & Don'ts" of fund-development. Flowing from her belief that everyone should be proud of their work, she reiterates that fund-raisers offer a chance for philanthropy to their donors (transactional, yes, but it works better than mealy-mouthed begging). It's also important to honour your donor's time and intelligence by being straightforward and making intelligent asks. Lastly, fund diversification should always be part of an NFP's overall strategic considerations.  
 
-## Underdeveloped
+## Bell & Cornelius
+
+Development Directors are the senior staff-members who oversee an organisation's fund-raising efforts. The report covers the difficulties faced by people in this position based on surveys with Executive Directors and Development directors across the US. The problems encountered by small organisations do differ from those by larger ones. 
+
+First, the position's turnover is high and vacancies tend to be long, and not just because there is a scarcity of talented fund-raisers. Many dev-directors have little interest in a career in that work. The upshot is that fund-raising know-how is never organisation-specific, leading to inconsistent donor-bases. 
+
+Second, the talent pool of development candidates is shallow and of uneven quality. Smaller NFPs can't attract competent directors as easily as large ones, and many Executive Directors' appraisals of their development director are not favourable.
 
 ## Knowing When
 
-## Seek a GRant
+## Seek a Grant
 
-## GRant-writing
+## Grant-writing
