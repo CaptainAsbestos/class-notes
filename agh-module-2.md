@@ -40,6 +40,5 @@ A decision memo is a do-or-die style policy memo. They are short, to the point, 
 
 Key to succes is clarity of thought and message. The form is the content, and a standard layout prevents any misperceptions about the topic, addressee, and author. It follows the typical policy paper layout of executive summary, background, policy menu, then recommendation, but each section is much more condensed so that it fits on two faces of a page. 
 
-## Legislative Histories
 
 
