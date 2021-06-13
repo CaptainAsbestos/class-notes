@@ -57,6 +57,16 @@ After an anecdote relating a missed grant opportunity, O'Neal-McElrath leaves th
 
 The limiting factor for receiving grants is not the scarcity of money, but the effort put into courting one. Grants are awards of money to be put toward a very specific purpose spelled out in advance by a proposal. Before seeking a grant, the author suggests seriously considering if and why your project or mission need one; chasing grants can be a rabbit-hole distraction. 
 
+Regional Associations of Grant-makers (RAGs) often release common standards for grant applications, which make it easier to translate a proposal to multiple possible foundations (however, DO NOT DO THAT, for reasons discussed in the other abstracts for this module). 
+
+Family foundations differ from independent private foundations with respect to staff and executive decision making. The less personalised foundations, such as federated funds, corporated foundations, and community foundations, all have wider stakeholder groups who need to be satisficed by grant proposals. The Foundation Center and Grantsmanship Center have an online resource (available through paid subscriptions) to assist with the research process for grant-writers. Publications and newsletters such as Philanthropy News Digest give inside-track info on trends in the sector; trade publications in your organisation's field of work are also important to stay current with. Researching in advance not only saves you time, but it shows to foundation staff that you are a serious person who honours their intelligence and time. 
+
+Businesses are also a potential source of grants, although it bears remembering that business interests usually motivate business philanthropy. Federal, State, and Local grants are available because of legislation, and information on them is publicly available. The bar to clear for a federal grant is often not worth it, but they lend prestige to an organisation and provide a wealth of funds. The trend recently has been devolution from the federal government to the states, however, which bears well or ill for many organisations depending on the political landscape in their states. Key to success with government grants is visiting elected officials.
+
+Lastly, the Web has lowered the cost of entry to the fundraising game to almost nothing. A social media presence not only raises an organisation's profile to grant-givers, but it also provides a platform to "brag" and seek small one-off donations. 
+
+Eligibility comes before everything else: if your organisation doesn't qualify for the reward, then save yourself the effort of applying in vain. Like in the other abstracts, a grant-writer should also ensure that the RFP or RFA harmonise with the grant-writer's intended use for the grant. 
+
 ## 4 Key Strategies
 
 Building relationships with donors is the most important way to secure sustainable funding. By working the passionate donors, development directors can build a network of like-minded individuals and foundations. Last, expressing sincere gratitude to donors can make donors feel like their contribution is well received. 
