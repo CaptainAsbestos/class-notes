@@ -31,6 +31,8 @@ The report discusses what Simone Joyaux calls the "culture of philanthropy," and
 
 As for solutions, the report calls for organisations to do more than simply hire the "right" development director and keep them. First, organisations need to do destigmatise fund-raising and quit apologising while seeking donations (as McManus emphasised). Diversifying the talent pool begins with making development its own career track for young people and people of color who can leverage the power of new tech. Board engagement, as always, can be built up through training. As a more off-the-wall solution, the authors suggest using development-director-transition as a moment for self-reflection within an organisation; the board and executive share accountability for the outgoing director's performance. Although it is difficult for a single development director to reshape an NFP's culture to embrace fund-development, they are uniquely positioned to begin the process to change that.
 
+In the video "UnderDeveloped," Cornelius presents the findings of her report which she wrote with Bell.  
+
 ## Sherlock & Gravelle, 2009
 
 According to the congressional report, charities raise revenue from four sources: payments for service, receipt of state grants, private contributions, and returns on investments. In addition to these direct sources of revenue, non-profits also receive privileged tax status which lighten their financial burden in many ways. Private payments for services make up half of the sector's revenue sources, followed by government payments and grants.
@@ -53,13 +55,11 @@ After an anecdote relating a missed grant opportunity, O'Neal-McElrath leaves th
 
 ## Grant-writing
 
+The limiting factor for receiving grants is not the scarcity of money, but the effort put into courting one. Grants are awards of money to be put toward a very specific purpose spelled out in advance by a proposal. Before seeking a grant, the author suggests seriously considering if and why your project or mission need one; chasing grants can be a rabbit-hole distraction. 
+
 ## 4 Key Strategies
 
 Building relationships with donors is the most important way to secure sustainable funding. By working the passionate donors, development directors can build a network of like-minded individuals and foundations. Last, expressing sincere gratitude to donors can make donors feel like their contribution is well received. 
-
-## UnderDeveloped (Cornelius)
-
-Cornelius presents the findings of her report which she wrote with Bell.  
 
 ## Ford, 2009
 
