@@ -39,11 +39,17 @@ Within the non-profit sector, different fields are more susceptible to economic 
 
 The decade from 1995-2005 saw charitable contributions grow, but some fields witnessed greater changes than others (typically fields which were small in the first place and remained small, such as INGOs and environmental conservation). Religious groups received the highest amount of donations of any field, a trend which hasn't changed much since the '90s. Giving also correlates strongly with household income; more affluent people are more likely to donate and tend to donate more.
 
-The unfortunate reality is that economic contractions cause funds available to many charitable organisations to shrink precisely when they are needed most. Recession often affects investment assets as well. Organisations which provide necessity services such as food and healthcare weather the storm better than those which produce durable consumer goods. The upshot is that many nonprofits slashed operations to survive the austerity budgets imposed by state policy.  
+The unfortunate reality is that economic contractions cause funds available to many charitable organisations to shrink precisely when they are needed most. Recession often affects investment assets as well. Organisations which provide necessity services such as food and healthcare weather the storm better than those which produce durable consumer goods. The upshot is that many nonprofits slashed operations to survive the austerity budgets imposed by state policy after the 2008 financial meltdown. 
 
 ## O'Neal-McElrath, 2011
 
-O'Neal-McElrath begins by saying that almost never does "seeking a grant" succeed. The transactional buyer-seller framework 
+O'Neal-McElrath begins by saying that almost never does "seeking a grant" succeed. She prefers to think of a successfully solicited grant as a "transfer of enthusiasm" from people with spare capital to people who use it to realise some good end in the world. She likens the process to building a house; discussions, planning, and drafting all come before the cornerstone is laid (in her analogy, the written grant itself is the cornerstone). Doing the homework to identify similarly-aligned foundations should be the first task of any grant-writer. Once it's time to make contact, it's important to determine whether one should speak to a particular staff member or a board officer in a foundation. 
+
+Honesty and realism about an organisation's ability to deliver is critically important for grants, since it is illegal to misappropriate funds from their intended purpose. Success grants outline a program plan to show how the funds will help realise a specific, tangible goal.  
+
+Grant proposals and letters of intent largely follow the format outline on page 332 of the text. The task of grant-seekers is "to develop a plan for meeting each individual funder's needs as articulated in the grant guidelines." On the organisation's side, the grant-writer needs to be well-acquainted with operations, mission, and the specific program to be funded. Rather than rely on an expert grant-writer, the prospective program director/manager is the best person to write the proposal. Barring that, outside help should be used only at the utomst end of need. 
+
+After an anecdote relating a missed grant opportunity, O'Neal-McElrath leaves the reader with the Dos and Don'ts of grant seeking. Positive framing of a problem avoids alienating or demotivating a reader. There are no 'one-size-fits-all' LOIs; all grants should be tailored for the specific foundation they are submitted to. To avoid a missed grant, it's important to work with funding foundations as partners rather than patrons when seeking a grant. 
 
 ## Grant-writing
 
