@@ -55,8 +55,14 @@ After an anecdote relating a missed grant opportunity, O'Neal-McElrath leaves th
 
 ## 4 Key Strategies
 
-## Underdeveloped (Cornelius)
+Building relationships with donors is the most important way to secure sustainable funding. By working the passionate donors, development directors can build a network of like-minded individuals and foundations. Last, expressing sincere gratitude to donors can make donors feel like their contribution is well received. 
 
-## Ford 
+## UnderDeveloped (Cornelius)
+
+Cornelius presents the findings of her report which she wrote with Bell.  
+
+## Ford, 2009
+
+Ford describes the process that she uses to secure corporate and foundation grants. She specifically refers to the proposal process, which itself is only the last step of an 11 step process. She begins by declaring her organisation's mission and the needs of the program she seeks to fund. Before continuing any further, a working budget needs to be drawn up and stated. Researching donors in advance can save everyone time by only writing to likeminded sources of funds. 
 
 
