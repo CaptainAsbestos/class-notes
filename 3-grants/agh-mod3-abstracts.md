@@ -65,7 +65,18 @@ Businesses are also a potential source of grants, although it bears remembering 
 
 Lastly, the Web has lowered the cost of entry to the fundraising game to almost nothing. A social media presence not only raises an organisation's profile to grant-givers, but it also provides a platform to "brag" and seek small one-off donations. 
 
-Eligibility comes before everything else: if your organisation doesn't qualify for the reward, then save yourself the effort of applying in vain. Like in the other abstracts, a grant-writer should also ensure that the RFP or RFA harmonise with the grant-writer's intended use for the grant. 
+Eligibility comes before everything else: if your organisation doesn't qualify for the reward, then save yourself the effort of applying in vain. Like in the other abstracts, a grant-writer should also ensure that the RFP or RFA harmonise with the grant-writer's intended use for the grant. Continuing contact outside of the grant-cycle can sometimes keep attention on a request alive. If the grant-package doesn't have clear expecations, sometimes a letter of inquiry can get the ball rolling as a miniaturised version of the final write-up. 
+
+The intangibles of grant-writing are learned on the job, reproduced in the text for our benefit. Often, assembling the information needed to write a non-fraudulent grant proposal can be harder than herding cats, but having respect for ones colleagues even when they don't follow through on their promises is more than just good form.
+
+When writing the actual grant proposal itself, the author follows 12 rules to get started and follow through. Begin with an outline, not a recycled one, but based on what the funder is expecting. Start with a skeleton and add detail in layers. Vocabulary needs to be inclusive and hard-to-misinterpret. Triple check spelling and grammar to show that you are a serious writer who should be taken seriously (this is harder to do when writing against a near deadline). In the interest of clarity, the active voice and viewer descriptors are preferred. Rather than take a chance that the reader is unfamiliar with jargon and acronyms, avoid them at all costs.
+
+Grant-proposals are often the make-or-break opportuntity to get funding, so they deserve the attention and care of people writing them. The algorithm by which grant-givers decide which proposals are green-lit is also painstakingly complex to ensure that the decision makers have fair and objective information at their disposal. This is not to say that intangibles don't matter; for foundations, site-visits and candor on the part of the recipients can be important. 
+
+When a proposal is rejected, grant-writers shouldn't be too ashamed to follow up and ask why. Feedback is important and cheap; if the grant-giver isn't willing to disclose useful specifics, it still doesn't hurt to ask. That said, asking the right questions will go a lot farther at getting useful responses. Sometimes, the right people to ask for feedback aren't grant-givers but successful recipients in the same field.  
+
+The final section of the text summarises the key takeaways which the authors want to leave with the reader and a checklist to run through when writing a grant proposal. 
+
 
 ## 4 Key Strategies
 
