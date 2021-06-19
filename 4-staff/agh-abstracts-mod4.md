@@ -6,6 +6,8 @@ PS 5275
 
 ## Engaging the Nonprofit Workforce
 
+By engagement, the authors mean creating an environment for workers that is satisfying and productive so that worker retention is higher. Unique for the non-profit sector, however, employees don't think of their work as "just another job," but that's no reason to assume they are engaged just because they believe in their organisation's mission.
+
 ## Worth, 2014
 
 ## Porter & Emmens, 2009
