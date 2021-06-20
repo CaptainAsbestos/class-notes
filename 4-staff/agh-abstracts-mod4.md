@@ -32,7 +32,15 @@ The NFP sector is growing and volunteer labour is growing with it. Demographic s
 
 ## Porter & Emmens, 2009
 
+The researchers investigated the special psychological and medical needs of humanitarian work in international NGOs. They found that existing practices were inconsistent, seldom adhered to, and often incomplete. Peer-support programs have been developed for humanitarian workers, but it is evident that this solution is only a partial one. Almost half of INGOs do not have existing protocols for post-travel checkups and psychological debriefs, and staff care is likely to be slashed as the economic contraction continues. The researchers found that less than a third of INGOs self-assess their workers or staff-care measures and there is almost no publicly available internal research either. 
+
+Preparing staff for field work receives the most attention, but once on-assignment, many organisations rely on ad hoc solutions, revealing the opportunity for systematic exchange of best practices between INGOs. Post-assignment receives the least attention, where workers can slip through the cracks quite easily.
+
+The authors recommend a "framework for action" address these shortcomings, based on seven questions to discuss with planners. INGOs should consider what they can share with one another as well as what they ought to do better "in-house" before relying on outsourced expertise.  
+
 ## Rehnborg, 2009
+
+Rehnborg begins by dispelling myths about volunteers. First, volunteers give their work for free, but managing and retaining volunteers is not free -- it requires investment. They might not want the same thing as what your organisation wants, or get different things out of participation than what the organisation thinks.
 
 ## Legislative Testimony and Public Comment
 
