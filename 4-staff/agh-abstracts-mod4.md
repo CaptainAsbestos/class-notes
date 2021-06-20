@@ -40,7 +40,14 @@ The authors recommend a "framework for action" address these shortcomings, based
 
 ## Rehnborg, 2009
 
-Rehnborg begins by dispelling myths about volunteers. First, volunteers give their work for free, but managing and retaining volunteers is not free -- it requires investment. They might not want the same thing as what your organisation wants, or get different things out of participation than what the organisation thinks.
+Rehnborg begins by dispelling myths about volunteers. First, volunteers give their work for free, but managing and retaining volunteers is not free -- it requires investment. They might not want the same thing as what your organisation wants, or get different things out of participation than what the organisation thinks. Meeting volunteers needs is important because the relationship that high-expertise and spot volunteers have with the organisation is very important. Volunteer labour and staff work should overlap, not be siloed into different domains, because this makes the organisational structure more robust handicaps an org's community-reach. 
+
+She offers a "volunteer involvement framework" to categorise different volunteer roles -- along one axis is the connection the role has to a program (affiliation vs skill), along the other is the time commitment of the role (episodic or recurring).
+Depending on which category a volunteer falls in, their view of "what they get out of" volunteering changes. The full chart is on page 10 of the report.
+
+With this trademark framework, Rehnborg describes how to create a sustainable volunteer engagement program. Beginning with research on the volunteer force, and organisation can identify what kinds of volunteers they have and why they work for them pro bono. This information informs the grand strategy of an organisation as it develops its volunteer base by investing in personnel for volunteer management. As part of strategic planning, the governing board of an NFP needs to be part of the process from the beginning. Additionally, the community served should be integrated into plans for volunteer development. 
+
+Once the strategic vision is decided upon, implementing it requires drawing up logistical benchmarks and resources. There's no need to reinvent the wheel: copying the success of others can save a lot of headache, but adjustments should still be made. Quantitative self-assessment for success, exit interviews, or accounting for financial return on investment can check the temperature of strategic recruiting efforts to see if they succeeded or failed and to what degree. 
 
 ## Legislative Testimony and Public Comment
 
