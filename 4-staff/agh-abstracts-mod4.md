@@ -51,9 +51,24 @@ Once the strategic vision is decided upon, implementing it requires drawing up l
 
 ## Legislative Testimony and Public Comment
 
+The author(s) write that testimony and public comments are written to persuade and inform decision makers in government. This can be expert testimony or just the thoughts of ordinary people affected by a policy on the table. As an exercise in advocacy, neutrality isn't encouraged -- but neither is dishonesty.
+
+Prepare in advance with other people writing testimony or comments so that there's no redundant information. As a memorandum document, having clear labels for author, audience, date, and subject do your audience a favour for keeping track of your thoughts. In the text, make sure to name-check your organisation or the cause you represent and do not bury the lede. Ending with generous thank yous to the audience shows that you intend to remain amicable on future disputes as well. 
+
+For legislative testimony, getting in touch with the committee staffers helps a writer determine what sort of information they are expecting. Oral testimony is very different than submitting a written document; legislators can and will interrupt you as if they are cross-examining you. In that case, it is best practice to simply admit when you don't know anything for certain and promise to follow up with written reports. The last thing you ever want is to end up as the subject of an article on the front page of a newspaper.
+
 ## Writing for Non-Traditional Formats
 
-## Spence
+Email correspondence is always on record, so professionalism should never be ignored just because you think you are writing in private. Emails are often received out of context or accidentally cc'd to hundreds of people, so always err on the side of strict formality. Keep messages short and straightforward; many people have hundreds of emails to sift through per day and would rather not read a Victorian-era letter recounting the last six months of your life. If you simply must include a record of something that can't be explained in 5 sentences, attach it as a .pdf. Despite the mandate for brevity, it is a step above an SMS, so write in complete sentences and complete words. 
+
+Social media platforms like Twitter can amplify an organisation's messaging and brand reach; but as one wise poster once said, "everyday there is a new main character on twitter; the goal is never to be that person." As a platform for public conversation, public intellectuals can fire off "hot-takes" and interact with people outside their field on a seemingly more personable basis, but a poorly thought out tweet can backfire when the dogpiling begins. 
+
+The wisest twitter users limit the accounts they follow only to those the *must*, avoid using the "like" feature except with the utmost discretion, and always refer to other websites or resources rather than create long threads on the timeline. This last piece of advice is critical, because Twitter users (even verified accounts) do not have complete control over the content of a tweet. External redirection makes sure that you are the one controlling your messaging, not twitter. Social media platforms are only the audience, not the medium itself. 
+
+## Spence, Delegation
+
+Spence says that handing off responsibility for decision making is often worth the anxiety it creates. As tasks are delegated to departmental experts, it can be exciting and encouraging to see the way things improve, even if mistakes still happen and things still slip through the cracks. Purposefully, joyfully, and willingly delegating important jobs is essential for any leader. 
 
 ## INSSA Humanitarian Crises
 
+International humanitarian relief has become an increasingly dangerous field to work in as INGOs try to serve the needs of people affected by famine, disease, war, and natural disasters. Political and criminal attacks on aid workers multiplied fivefold from 2001 to 2011, such as kidnapping, extortion, and murder. Fatalities grew 200% during the same period and 80% of the violence was visited upon local, not international, staff. Aid workers continue to pursue their work even in the absence of adequate support and protection, and INSSA seeks to fill that critical want. 
