@@ -1,6 +1,6 @@
 # Module II: Accountability
 
-Alex *Horne*\
+Alex Horne\
 5 June, 2021\
 NGOs & Non-Profits PS 5275
 
