@@ -3,7 +3,7 @@ geometry: margin=1in
 header-includes:
     - \usepackage{setspace}
     - \doublespacing
-mainfont: Times New Roman 
+mainfont: EB Garamond
 fontsize: 12pt
 indent: true
 ---
