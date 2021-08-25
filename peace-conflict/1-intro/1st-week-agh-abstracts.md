@@ -6,8 +6,11 @@ indent: true
 ---
 
 # Week 1 Abstracts
+
 Alex Horne
+\
 PS-6120
+\
 25 August 2021
 
 ## UN: Global Issues
@@ -37,3 +40,11 @@ Sadly, the approach of "peace through superior firepower" continues to guide pol
 Ehrenreich demonstrated that war and war-mindset expand over time and space; the First World War was regarded as the "war to end all wars" but still inaugurated a century that saw a tide of bloodshed on an unprecedented scale for truly stupid reasons. National identities are often wrapped up in preoccupation with military pre-eminence, and strength is often equated with the use of force rather than restraint. The line between patriotic militarism and fascistic rhetoric often blurs. Peace studies emphasise that lasting peace cannot be accomplished through force alone.
 
 Houston offers Post-Apartheid South Africa as an example of peacebuilding through reconciliation and forgiveness rather than retribution. In Desmond Tutu's recollection, offering a path towards forgiveness served the interest of all by legitimising the newly inaugurated state in the eyes of most, if not all, of SA society. The Truth \& Reconciliation Commission has been a successful example which many policy-makers and diplomats try to emulate.
+
+## Diehl, *Peace: A Conceptual Survey*
+
+Diehl provides a survey of the state of peace research in 2019. Theories of positive peace are comparatively underdeveloped because the operationalised measurement of the concept are more difficult to capture empirically. At different levels of analysis, peace may be more prevalent than at others, further complicating the study of how violences on different scales can interact. 
+
+Realist theory of IR centres violent conflict as the traditional arena of competition for power. This is not to say that realists don't believe in peace or pursuing it as worthy end, but as the oldest school of political theory, peace theory is already comparatively underdeveloped. Diehl divides the concept into system-level and internal-level, from the birds-eye perspective of international relations. Then, he considers Goertz's discussion as peace as a binary dichotomy or spectrum of conditions; Goertz emphasises that focusing on the middle of the spectrum can offer fruitful results, whereas a binary would preclude that, methodologically. Additionally, students of peace must consider the multiple attributes of peace which can be either binary or continuous, forming a multidimensional framework for analysis. Lastly, it is easy to presume that War and Peace, as diametric opposites, are causally downstream of similar (if not the same) variables; this assumption may not be valid. 
+
+Negative peace is widely understood as a necessary but not sufficient condition for positive peace. Diehl adds that 
