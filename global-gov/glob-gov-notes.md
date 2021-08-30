@@ -6,6 +6,8 @@ Alex Horne
 
 ### LaForge \& Slaughter
 
+Anne-Marie Slaughter was Director of Policy under Clinton in the First Obama Admin. She then served on the Board of Directors for such wonderful corporations as McDonald's and Citigroup
+
 - The authors' "solution" to bad governance is a dictatorship of the international bourgeoisie
 - Want non-state actors (civil society technocrats) to take over the role of a national state.
 - why? 
@@ -40,4 +42,30 @@ Alex Horne
     * Also, wtf even is "western" civ? How much of these civilisational identities are just accidents of decolonisation in the last 100 years? 
         * Again, Wahabbism and Political Islam is a deliberate artificial creation of Western Foreign Policy 
 - At no point does **anyone** mention climate change
-- This is a stupid debate and it is not worth having 
+- This is a stupid debate and it is not worth having
+
+### Slaughter (2003)
+
+Infuriatingly banal. Lays the groundwork for her more recent piece. Beneath comment.
+
+### Lake, Anarchy 
+
+Begins by saying that the NATO alliance was not hierarchical. Sure, in a purely technical, limited sense. But there was a clear preeminence which the US enjoyed and other members of the alliance banked on, especially after the Suez crisis.
+
+On pp 16, Figure 2: Think of the "O" curves as "the potential damage an opportunist other could inflict" and the "G" curves are "the necessary cost in treasure to deter that opportunism." The nought-curves are actual Damage and Deterrence, but lacking perfect information, the prime curves represent self-assessment by states, which are necessarily imperfect and therefore err on the side of caution, ie, greater potential damage. The intersection of the O and G curves is the optimal location for a dyad of partners, in a purely economic sense.
+
+As you can see, at the extremes of either end of the x-axis, costs climb substantially; there are diminishing marginal returns for complete anarchy and complete hierarchy. This stands to reason: completely owning another territory's security policy is expensive.  Importantly, the junior partner in any pair will have its political interests warped. This is because a polity's natural impulse to sovereignty -- or perhaps belief in popular sovereignty -- will chafe as its security policy is co-opted or dictated to it by an outsider. The efficient use of its resources towards security will be distorted (no such thing as comparative advantage in an imperial relationship). 
+
+Lake uses the US Federal Constitution as the example of a contract that is hierarchically organised but which finds a way to keep the junior partners vested in the future of the relationship -- through participation in a parliament, a binding court for adjudication of claims, and so on. Thus, the dominant partner (understood in retrospect to be the Federal State itself) can buy participation of potentially sovereign juniors to work as a single security unit. Barring institutional buy-in, coercion can be used to enforce a hierarchy, typically because a senior partner has to *want* to be coerced by a junior (because let's face it, what are they gonna do about it?). Coercion isn't necessarily cheaper, however, and often coercive relations suffer blowback.
+
+It begs to be asked then: whence imperialism? If there's enough money to be made via full subjugation, or another enemy's opportunism requires preemptive conquest, thence imperialism.
+
+So while this theory seems to be a very long-winded explanation of something we already sorta know, the fact that it very closely resembles reality might offer some support for the postulations Lake had to make to get here, especially the riskier ones.
+
+Rigourously testing this hypothesis leads to some substantial methodological challenges. First, there's a tendency to emphasise cases where security dyads fucked up and failed to produce security, whereas dyads which succeed (so far) offer poor data. Speaking of which, we lack rich systematic data because counterfactuals -- namely, dyad-relationships which do not efficiently produce security -- do not exist (because states would be foolish to enter such relationships). In other words, the sample is limited to only the meeting-points of O' and G', but we can't trace the curves like we could supply and demand.
+
+As a pilot study, Lake selects Cold War Europe. Essentially, the US faced a high cost if it were to occupy west Europe and it also faced little threat from soviet opportunism in its own borders. This led it to favour an approach like NATO. Conversely, the Soviet situation was quite opposite: High likelihood (or perceived likelihood) of US meddling and low opportunity cost for dominating Easter Europe. Thus, it pursued a more hierarchical relationship with the Warsaw Pact countries. (see pp 24)
+
+The Fear of Missing Out in the American Economic project was one such consent-buying structure in the Bretton-Wood System, much like the US Federal Constitution bought consent of the semi-sovereign provinces. For this exact reason, tight integration of communist economies through coercion rather than consent was the simplest and optimal solution to maximise security.
+
+He concedes that controlling for regime type in a more comprehensive study might offer better results. The crucial insight is that governance institutions do not facilitate cooperation for no reason -- indeed, they are instruments of control just as importantly. This hypothesis also adds more colour to our understanding of hegemonies within anarchy and structured reality.
