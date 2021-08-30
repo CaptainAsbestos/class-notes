@@ -69,3 +69,21 @@ As a pilot study, Lake selects Cold War Europe. Essentially, the US faced a high
 The Fear of Missing Out in the American Economic project was one such consent-buying structure in the Bretton-Wood System, much like the US Federal Constitution bought consent of the semi-sovereign provinces. For this exact reason, tight integration of communist economies through coercion rather than consent was the simplest and optimal solution to maximise security.
 
 He concedes that controlling for regime type in a more comprehensive study might offer better results. The crucial insight is that governance institutions do not facilitate cooperation for no reason -- indeed, they are instruments of control just as importantly. This hypothesis also adds more colour to our understanding of hegemonies within anarchy and structured reality.
+
+### Class Notes
+
+What is research?
+- Studies utilising the scientific method
+- Logical, Falsifiable, Repeatable
+- Describing phenomena and then explaining them 
+    * Generate hypotheses from observation which can then be tested empirically
+
+Terminology
+- **Unit of Analysis** -- the subject and scope of your study
+- Concepts and operationalisation
+    * oftentimes, these can be cribbed in whole from your Lit Review -- if it's good enough for other peer-review research, it's good enough for you!
+- **Variables**
+    * Independent explains the dependent
+    * Control -- intermediating or external variables which are known to affect the research variables
+- **Hypothesis** -- a falsifiable conjecture which relates two or more variables to one another 
+    * Theories are just hypotheses which have a strong corpus of supporting evidence 
