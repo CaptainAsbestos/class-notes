@@ -19,19 +19,17 @@ fontsize: 12pt
 indent: true
 ---
 
-# \sc China\'s Elite Politics \& Sino-American Rapprochement
+# \sc Recommended Reading Report
 \
-\textmd{Article by Xià Yàfēng 夏亚峰, 2006}
-\
-Report by Alex Horne, 2021
+Xia, Yafeng. \`\`China\'s Elite Politics and Sino-American Rapprochement, January 1969-February 1972.\'\' Journal of Cold War Studies 8, no. 4 (2006): 3-28. [muse.jhu.edu/article/204637.](muse.jhu.edu/article/204637.)
 
 ## \sc Introduction \& Historical Overview
 
-In the West, there exists a tendency to presume that there were sections within the Communist Party of China which opposed rapprochement with the US. Xia claims the truth is much more complicated.
+In the West, there exists a tendency to presume that there were sections within the Communist Party of China which opposed rapprochement with the US. Xia claims the truth is much less complicated: foreign policy was directed entirely by Máo Zédōng and Zhōu Ēnlái with minimal pushback from the Gang of Four. 
 
-The PRC detonated its first nuclear weapon in 1964; the US and the Soviet Union reached nuclear parity in 1969. All three of these elements led to a multi-polar balance of power: three major world powers with three different political ideologies and sets of interests, and all with the means to destroy the world. Even if the US had superior power projection in Eurasia, both communist countries remained formidable adversaries.
+Before I begin, I must describe the historical landscape in which détente emerged as a policy. The PRC detonated its first nuclear weapon in 1964; the US and the Soviet Union reached nuclear parity in 1969. All three of these elements led to a multi-polar balance of power: three major world powers with three different political ideologies and sets of interests, and all with the means to destroy the world. Even if the US had superior power projection in Eurasia, both communist countries remained formidable adversaries.
 
-First, a primer on how foreign policy is made in the Peoples Republic: the Standing Committee of the Politburo is a group of up to a dozen which makes major political decisions when the full Politburo is not in session (hence the *standing* committee). The chairman of the party plays a strong role in committee-member selection, and since the death of Máo Zédōng the politburo chooses the top leadership of both the party and state. During the Cultural, Zhōu Ēnlái worked as Foreign Minister overseeing day-to-day affairs just as former CCP secretariat members (such as Liú Shàoqí \& Dèng Xiǎopíng) were frozen out. Military influence through Lín Biāo also shaped foreign policy.
+Foreign policy-making is centralised in the top echelons of the party-state. The Standing Committee of the Politburo is a group of up to a dozen which makes major political decisions when the full Politburo is not in session (hence the *standing* committee). The chairman of the party plays a strong role in committee-member selection, and since the death of Máo Zédōng the politburo chooses the top leadership of both the party and state. During the Cultural, Zhōu Ēnlái worked as Foreign Minister overseeing day-to-day affairs just as former CCP secretariat members (such as Liú Shàoqí \& Dèng Xiǎopíng) were frozen out. Military influence through Lín Biāo also shaped foreign policy.
 
 ## \sc The Sino-Soviet Split
 
@@ -72,8 +70,8 @@ The 1972 Shanghai Communiqué ruffled feathers in the State Department, who worr
 
 ## \sc Concluding Thoughts
 
-It is often remarked that only Nixon could have gone to China, but it is just as true that only Máo could have welcomed him. Only at the fever pitch of Cultural Revolution could Máo have commanded the authority to make nice with the imperialists and silence any dissent. Whence the Western narrative, then, that there were Elites within the CCP who opposed rapprochement? Because it's a convenient myth for the Americans -- it forces everyone, from hardline McCarthyists to doves, to take the relationship seriously. In the two-level game theory which Putnam developed, if the other side isn't even negotiating amongst themselves, that changes how our side negotiates with itself.
+It is often remarked that only Nixon could have gone to China, but it is just as true that only Máo could have welcomed him. Only at the fever pitch of Cultural Revolution could Máo have commanded the authority to make nice with the imperialists and silence any dissent. Whence the Western narrative, then, that there were Elites within the CCP who opposed rapprochement? Because it\'s a convenient myth for the Americans --\ it forces everyone, from hardline McCarthyists to doves, to take the relationship seriously. In the two-level game theory which Putnam developed, if the other side isn\'t even negotiating amongst themselves, that changes how our side negotiates with itself.
 
-Had there been significant pushback to rapprochement from radical leftists in the CCP, that evidence would have been produced or fabricated to buttress Máo\'s authority. No such evidence has been revealed or fabrications invented. No doubt that this was because the legitimacy of radical leftism during the Cultural Revolution stemmed from Máo himself, nullifying its logic. Furthermore, there is little reason to believe that Lín had gone rogue by the time he met his end, no matter how strange the circumstances. Lín\'s domain was military policy, not diplomacy, and he was keenly aware of that fact. He disliked interacting with foreigners and deferred to Máo at every point. Rather than feeling alienated by being cut-out of foreign policy, personal testimonies from those who knew him best suggests that this was was his preference. 
+Had there been significant pushback to rapprochement from radical leftists in the CCP, that evidence would have been produced or fabricated to buttress Máo\'s authority. No such evidence has been revealed or fabrications invented. No doubt that this was because the legitimacy of radical leftism during the Cultural Revolution stemmed from Máo himself, nullifying its logic. Furthermore, there is little reason to believe that Lín had gone rogue by the time he met his end, no matter how strange the circumstances. Lín\'s domain was military policy, not diplomacy, and he was keenly aware of that fact. He disliked interacting with foreigners and deferred to Máo at every point. Rather than feeling alienated by being cut-out of foreign policy, personal testimonies from those who knew Lín best suggests that this was was his preference. 
 
 Xià argues that this historically unsubstantiated narrative arises from a misapplication of Western political models to Chinese politics. Collective decision making has always been acknowledge as an effective practice in Chinese politics, acknowledged even by internal CIA and state department memoranda. The sectarian rhetoric of the Cultural Revolution was most likely nothing more than rhetoric, at least with regard to foreign policy. 
