@@ -73,17 +73,43 @@ He concedes that controlling for regime type in a more comprehensive study might
 ### Class Notes
 
 What is research?
+
 - Studies utilising the scientific method
 - Logical, Falsifiable, Repeatable
 - Describing phenomena and then explaining them 
     * Generate hypotheses from observation which can then be tested empirically
 
-Terminology
+#### Terminology
+
 - **Unit of Analysis** -- the subject and scope of your study
 - Concepts and operationalisation
-    * oftentimes, these can be cribbed in whole from your Lit Review -- if it's good enough for other peer-review research, it's good enough for you!
+    * Often, these can be cribbed in whole from your Lit Review -- if it's good enough for other peer-review research, it's good enough for you!
 - **Variables**
     * Independent explains the dependent
     * Control -- intermediating or external variables which are known to affect the research variables
 - **Hypothesis** -- a falsifiable conjecture which relates two or more variables to one another 
     * Theories are just hypotheses which have a strong corpus of supporting evidence 
+
+#### Ethics
+
+- The Institutional Review Board protects the University or research institution from liability -- not you
+- just because they say it's ethical doesn't mean it is
+- Think about how your research can be used for harm or how your study exploits the subjects
+- Informed consent cannot exist where the perception of coercion exists
+- Privacy -- how do you protect people's information?
+    * Guaranteeing privacy is also a best practice because it helps with data collection
+- Appropriate compensation -- how much is too much? How little is too little
+    - Never forget that **you** the researcher are the primary beneficiary of any study -- shouldn't the human subjects benefit as well?
+- Positionality \& Reflexivity
+    * What perspective and experience do you come from?
+    - What biases and presumptions might you have which go unquestioned?
+    - How does one practice reflexivity \& Positionality? Make sure your lit review includes perspectives from people "closer" to the issue area, literally closer 
+  
+Why are practitioner-funded academic studies becoming more common? Because the moneeyyyyyyyy.... Ethics clearly matter a great deal when the results are literally published on the request of a practitioner. They primarily limit the scope of research (and rightly so) but ethical research is also *better* research.
+
+### Global Governance -- Class Notes
+
+Why does it exist? To solve collective action problems.
+
+- Why are these problems difficult to resolve? Distance and culture certainly gum up the works, but there are also strong incentives for states to pursue opportunistic self-interest at everyone else's expense
+- The Stakes are life-and-death and there are no hard rules.
