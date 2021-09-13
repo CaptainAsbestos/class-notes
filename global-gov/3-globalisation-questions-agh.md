@@ -28,4 +28,4 @@ So, why are some communities of humans less materially well off than others? Thi
 
 ## Steger
 
-
+1. Steger namechecks pandemics as one of the threats that could derail the globalisation project. What do we think: is this a turning point? Or will the answer to the pandemic's disruption become "more globalisation"? (Week 2's readings discussed interpermeation of lower-tier governments in response to the pandemic)
