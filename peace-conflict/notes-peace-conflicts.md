@@ -79,3 +79,14 @@ Smaller powers & Dependencies
 As long as there is a dominant power, they will necessarily make enemies within the lower levels of the pyramid, but unable to do anything about it aside from collective action
 
 DiCicco: What if the dominant power is *also* dissatisfied with the status of its own empire??
+
+## Week 4 - Liberal Peace?
+
+Derrick: "incredible ethno-centrism" in the perspectives of the reading
+
+- "Democracies win wars more easily" seems woefully out of touch
+- "Autocracies are less incentivised to win" confirmation bias much?
+    * Availability bias is the rejoinder to that argument
+    * Even if the probabilistic evidence suggests  that these assertions are valid -- would you want your commander in chief to believe this as a given??
+
+

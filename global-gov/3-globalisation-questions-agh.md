@@ -32,4 +32,12 @@ So, why are some communities of humans less materially well off than others? Thi
 
 ## Okogbule
 
+1. Democratic constitutionalism is a lot easier said than done. Where does one start at introducing true popular sovereignty to post-Colonial countries?
 
+1. Okogbule suggests a trading bloc like the Euro Union for Africa. What are the prospects of that happening in our lifetimes? Wouldn't any move to build a counter hegemony be met with resistance from the Atlantic Powers?
+
+## Sassen
+
+1. Is it just me or does Sassen have no fucking clue what he's talking about
+
+## Koh
