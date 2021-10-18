@@ -1,0 +1,47 @@
+# Discussion Questions
+
+## Abel & Wright, Sanctions
+
+- on Page 339, they write, "dependence on external rents and trade taxes makes personalist rulers vulnerable to economic sanctions." This seems to miss an external third variable: how many of these personalist regimes are in former colonies? How many of them had their economies distorted and warped by cash-crop dependence and buildup of specific industries at the expense of others? Is there a relationship between Coloniser/colonised status and political liberalism???
+- These authors write about "destabilisation" as a political end -- is this humane or insane?
+- If we were to apply these findings to the real world, lets consider the DPRK: is it a military regime, a personalised autocracy, or a single party state? What would you expect the result of sanctions to be?
+
+- Darrika asks: Why do countries like DPRK, Cuba, Iran, etc. persist under authoritarian rule? (answer: the regime survival strategies discussed in the paper)
+- Craig asks: Why have the DPRK continued to develop nuclear weapons despite decades of sanctions? Why does this country seem to be an exception to this paper's conclusion regarding personalist rulers (hint: maybe it's actually not a personalist dictatorship as much as we want to think)? Is it simply because of DPRK's relationship with PRC or are there other factors? (I would ask, how would you go about investigating the effect of client-patron status with sanctions efficacy)
+- Joseph asks: Besides sanctions, what other methods could be used to destabilise single-party dictatorships? Are there any? Is war the only remaining option for regimes insulated by sanctions? (why not diplomacy???)
+- Demontray asks: Are sanctions more effective against personal regimes than against SPSs or military juntas? Which regime-type is best able to endure sanctions?
+- Amina asks: Why do sanctions not work as a deterrent? 
+
+
+## Hultman & Peksen, Sanctions 
+
+- Abdi asks: Hultman and Peksen indicated their article sanctions sometimes may not effective to reduce conflicts. It may also damage the general population. Are there any other tools international communities can use for conflict resolution other than sanctions? 
+- Demontray asks: since sanctions can cause more violence and problems within conflict zones, would the most effective way to rweduce violence during a conflict be an arms embargo? (HELL YES MAN)
+
+## Malik \& Stone, World Bank
+
+- Darrika asks: Can "the problem" be fixed? (define the problem) What are some immediate first steps which could be taken to address this issue?
+- Joseph asks: referring to page 116, What enforcement/monitoring mechanisms -- in addition to the 1995 act and the IHRC -- can be put in place to prevent private corporations from taking advantage of good-faith efforts by INGOs to promote peace and stability? (Counter-question: What is the world bank's mission? to promote peace and stability? or is it something else...?)
+- Demontray asks: Do the US and Japan's contributions to the World Bank significantly influence loan disbursements? Why do the US and Japanese inflation rates tend to be higher when MNC is involved as the contractor?
+- Amina asks: If future loan disbursements depend on compliance with past conditions, why does the IMF ignore this enforcement for some countries with human rights violations and corruption records?
+- Amina asks: Organisations which oppose the World Bank and IMF argue that they do not help the majority of people in countries they lend to. Why do they argue that? (Corruption, loss of economic sovereignty, neo-colonialism, proletarianisation)
+
+## Hernandez, World Bank Conditionality
+
+- Joseph asks: PRC's competition as a lender to Africa has lessened conditionality requirements from the World Bank. Could the World Bank seek -- through a coalition of World Bank members -- to include benefits that a unitary actor like China could never provide? What would these benefits be and how would they be implemented? 
+- Demontray asks: Is conditionality an effective tool? Is it fair that High-GDP countries receive less stringent conditions than lower-GDP countries (for example, China vs. Ghana)
+
+## Reinhart & Trebesch, IMF 
+
+- Demontray asks: do political factors play a role in IMF Lending decisions?
+
+## General Questions
+
+### Sanctions
+
+- Kaitlin asks: What are your thoughts on the use of sanctions internationally? I know when thinking of how to enforce human trafficking laws between states it has been proposed, but the problem is if it is actually coercive enough to work. What do you think?
+
+### World Bank
+
+- Kaitlin asks: How do you think world bank lending impacts the world as a whole? 
+
