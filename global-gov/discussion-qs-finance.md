@@ -50,5 +50,6 @@
 
 ### World Bank
 
+- Alex Asks: Hernandez concludes that the arrival of other sovereign lenders in development banking has forced the World Bank to react. On the other hand, Malik & Stone contend that geopolitics matters more to IMF loans, even if Japanese and US firms are siphoning out World Bank disbursements. Is the World Bank a political institution? Or is international finance just as political as it is economic?
 - Kaitlin asks: How do you think world bank lending impacts the world as a whole? 
 
