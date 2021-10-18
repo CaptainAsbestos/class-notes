@@ -51,9 +51,14 @@
 
 - Kaitlin asks: What are your thoughts on the use of sanctions internationally? I know when thinking of how to enforce human trafficking laws between states it has been proposed, but the problem is if it is actually coercive enough to work. What do you think?
 - Zineb asks: On what criteria do countries decide what type of sanctions they will impose on others? 
+- Rayyan asks: Are the reasons always fair when it comes to sanctioning other countries? (depends on the circumstances, i guess that's not a real answer)
 
 ### World Bank
 
 - Alex Asks: Hernandez concludes that the arrival of other sovereign lenders in development banking has forced the World Bank to react. On the other hand, Malik & Stone contend that geopolitics matters more to IMF loans, even if Japanese and US firms are siphoning out World Bank disbursements. Is the World Bank a political institution? Or is international finance just as political as it is economic?
 - Kaitlin asks: How do you think world bank lending impacts the world as a whole? 
+- Rayyan asks: Do new donors request policy change? (Not usually, but some are pretty restrictive about corruption)
 
+### IMF
+
+- Rayyan asks: What are the advantages of short-term lending? (it makes it explicit that this is a temporary loan for an immediate problem, like a balance of payments problem or liquidity. Long-term development or dependency on IMF erodes economic sovereignty)
