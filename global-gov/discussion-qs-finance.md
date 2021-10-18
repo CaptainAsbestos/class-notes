@@ -2,12 +2,16 @@
 
 ## Abel & Wright, Sanctions
 
-- on Page 339, they write, "dependence on external rents and trade taxes makes personalist rulers vulnerable to economic sanctions." This seems to miss an external third variable: how many of these personalist regimes are in former colonies? How many of them had their economies distorted and warped by cash-crop dependence and buildup of specific industries at the expense of others? Is there a relationship between Coloniser/colonised status and political liberalism???
+- on Page 339, they write, "dependence on external rents and trade taxes makes personalist rulers vulnerable to economic sanctions." This seems to miss an external third variable: how many of these personalist regimes are in former colonies? How many of them had their economies distorted and warped by cash-crop dependence and buildup of specific industries at the expense of others? Is there a relationship between Coloniser/colonised status and political liberalism? (in answer to this, see pp 346: they control for "previously colonised" as a dummy variable) But they still don't get into the weeds of political economy and monocommodity dependence (despite using Ugandan Coffee and Idi Amin as an example)
 - These authors write about "destabilisation" as a political end -- is this humane or insane?
 - If we were to apply these findings to the real world, lets consider the DPRK: is it a military regime, a personalised autocracy, or a single party state? What would you expect the result of sanctions to be?
 - If a regime is successfully rolled back, is it really any better than the old guys? Or is it just more friendly to the West? (example: Pinochet in Chile, the Junta in Argentina, ie non-communist dictatorships)
 - How do the authors operationalise the variables they are testing? (p 341: cooptation = government consumption)
-- Selection problem: How many democracies are ever under sanction? How would democracies react if that happened??
+- Selection problem: How many democracies are ever under sanction? How would democracies react if that happened? (Answer on pp 351, they use Heckman model to account for this)
+- What if we ran this test with so-called "smart sanctions?"
+- Lol @ pp 347, last sentence
+- Why are sanctions widely *used* as foreign policy tools? I would argue that sanctions are just the cheapest tool to use which costs no blood, only treasure. They are politically expedient, ideologically neutral, and easy to pass.
+- How many sanctions are too many? Especially vis-a-vis US-led multilateral sanctions -- even if they work 20% of the time, for instance, how much of the world is willing to go along with something that only succeeds 20% of the time?
 
 - Darrika asks: Why do countries like DPRK, Cuba, Iran, etc. persist under authoritarian rule? (answer: the regime survival strategies discussed in the paper)
 - Craig asks: Why have the DPRK continued to develop nuclear weapons despite decades of sanctions? Why does this country seem to be an exception to this paper's conclusion regarding personalist rulers (hint: maybe it's actually not a personalist dictatorship as much as we want to think)? Is it simply because of DPRK's relationship with PRC or are there other factors? (I would ask, how would you go about investigating the effect of client-patron status with sanctions efficacy)
