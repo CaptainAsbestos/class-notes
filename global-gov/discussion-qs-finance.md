@@ -15,6 +15,7 @@
 
 - Darrika asks: Why do countries like DPRK, Cuba, Iran, etc. persist under authoritarian rule? (answer: the regime survival strategies discussed in the paper)
 - Craig asks: Why have the DPRK continued to develop nuclear weapons despite decades of sanctions? Why does this country seem to be an exception to this paper's conclusion regarding personalist rulers (hint: maybe it's actually not a personalist dictatorship as much as we want to think)? Is it simply because of DPRK's relationship with PRC or are there other factors? (I would ask, how would you go about investigating the effect of client-patron status with sanctions efficacy)
+    * In addition, DPRK is now a nuclear state. They saw what happened to Qadafi after he gave up his nukes in exchange for sanctions relief.
 - Joseph asks: Besides sanctions, what other methods could be used to destabilise single-party dictatorships? Are there any? Is war the only remaining option for regimes insulated by sanctions? (why not diplomacy???)
 - Demontray asks: Are sanctions more effective against personal regimes than against SPSs or military juntas? Which regime-type is best able to endure sanctions?
 - Amina asks: Why do sanctions not work as a deterrent? 
@@ -24,6 +25,7 @@
 
 - Abdi asks: Hultman and Peksen indicated their article sanctions sometimes may not effective to reduce conflicts. It may also damage the general population. Are there any other tools international communities can use for conflict resolution other than sanctions? 
 - Demontray asks: since sanctions can cause more violence and problems within conflict zones, would the most effective way to rweduce violence during a conflict be an arms embargo? (HELL YES MAN)
+- Zineb asks: The authors write that sanctions are likely to increase discrimination against women. How?
 
 ## Malik \& Stone, World Bank
 
@@ -41,12 +43,14 @@
 ## Reinhart & Trebesch, IMF 
 
 - Demontray asks: do political factors play a role in IMF Lending decisions?
+- Craig asks: The auhthors conclude that Mission Creep has made the IMF into a development agency rather than a lender of last resort, and that the IMF should rebuild the latter's capabilities to de-politicise its activities. But, if emerging economies don't want or need IMF loans while the Eurozone countries do, why is that a problem?
 
 ## General Questions
 
 ### Sanctions
 
 - Kaitlin asks: What are your thoughts on the use of sanctions internationally? I know when thinking of how to enforce human trafficking laws between states it has been proposed, but the problem is if it is actually coercive enough to work. What do you think?
+- Zineb asks: On what criteria do countries decide what type of sanctions they will impose on others? 
 
 ### World Bank
 
