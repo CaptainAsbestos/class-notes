@@ -87,9 +87,13 @@ Beyond democracy, she also lists two problematic assumptions which shape interve
 
 As part of her bottom-up analysis, she writes that mediators often overestimate the actual control that leaders have over their subordinates. Often, the interests of leaders is not the same as their soldiers -- this debunks assumption number one from the last paragraph. This is not to say that all elites are powerless at curtailing violence, but that a top-down approach can only accomplish so much. Luckily, the bottom-up approach has proved cheaper in the long-run for better results, provided the funds aren't simply embezzled.
 
+The resistance she encounters stems from the state-centric structure of international politics. She explicitly mentions the UN Security Council and the need to obtain permission of host governments before peacekeepers can enter a country. 
 
+## Part III: *The New Peace Manifesto*
 
 ### Chapter 5, *Peace by Piece*
+
+
 
 ### Chapter 6, *Recasting Roles*
 
