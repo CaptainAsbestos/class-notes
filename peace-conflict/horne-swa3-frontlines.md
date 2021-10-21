@@ -68,7 +68,18 @@ Path dependency on existing templates can be deadly. But there is hope, Autesser
 
 ### Chapter 4, Designed Intervention
 
-Autesserre moves on from the "technocratic" mindset to the state-centric approach. These two are undeniably related, but this time she focuses on the non-NGO side of the equation. 
+Autesserre moves on from the "technocratic" mindset to the state-centric approach. These two are undeniably related, but this time she focuses on the non-NGO side of the equation. While many point to the success of the top-down, "trickle-down" approach in places like El Salvador and Ireland, and Southwest Africa, Autesserre regards these conflicts not as "resolved" peaces but as frozen conflicts. They fall short of the "peace possible" she describes in chapter one. In the Congo since 2010, the failures of this strategy are easily visible.  
+
+Tight deadlines, donor pressure, and lack of knowledge compound the already difficult work that peacebuilders face. Path dependencies mean that assumptions are often unchallenged, and trendy solutions bring in donations without actually assessing their efficiency. Autesserre names a few specific variables that are useful for self-evaluation: 
+
+1. Internal Displacement
+2. Repatriation
+3. Crime
+4. Gang violence
+5. Intergroup or Interpersonal Conflict
+6. Perceptions of safety
+
+Often, even this isn't enough for good project evaluation. Some variables require too much theoretical formulation to be thought up during a six month deployment, or are necessarily out of reach for foreigners who lack the means or know-how to get the data. The advantages of a local, bottom up approach, thus seem apparent. Autesserre mentions Pamina Firchow's methodology (relying on focus groups to collect quantitative data) as a promising approach which has nevertheless not seen wide adoption. 
 
 ### Chapter 5, *Peace by Piece*
 
