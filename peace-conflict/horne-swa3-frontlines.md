@@ -119,7 +119,7 @@ Autesserre also raises the question: if locals know best, why not just get out o
 
 ### Chapter 7, *The Homefront*
 
-Autesserre adopts the corollary of "imperial war coming home" -- she argues that peacebuilding in the Global South can be applied to political conflicts in the Global North.
+Autesserre adopts the corollary of "imperial war coming home" -- she argues that peacebuilding in the Global South can be applied to political problems in the Global North. The inner cities of the United States resemble conflict zones in Congo despite being in the most prosperous nation in human history. The lessons learned from peacebuilding around the world are already being applied to these issues, which involves not just gang wars but also mass incarceration, police brutality, and deportation. Rephrase that as "political prisoners, state repression, and internal displacement" and you could just as easily be describing Colombia, East Timor, or the Congo. It's a cliché to say it at this point, but American foreign policy and the empire came home; the US has colonised itself. The true test of Autesserre's thesis will be if these programs work here in the US too. Already, domestic NGOs like Cure Violence and the Live Free network have shown the promise of her theories applied here. Especially when police are trained to think of themselves as an occupying force in ghetto-ised neighbourhoods, the best way to build peace is to not rely on the state and the Peace Industrial Complex's electoral obsession. 
 
 ## In conclusion
 
