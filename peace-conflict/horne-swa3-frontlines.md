@@ -14,7 +14,9 @@ In addition, we've been searching for a definition of "peace success" which we c
 
 Towards the end of the preface, she writes that cases of success are just as confounding to our understanding as cases of failure. Echoing week-1 readings, she cautions against the assumption that war and peace are symmetric or mirrored phenomena. 
 
-## Chapter 1: Idjwi Island, South Kivu Province, DRC
+# Part I: *Peace Possible*
+
+### Chapter 1: Idjwi Island, South Kivu Province, DRC
 
 The Congolese Wars are, in Autesserre's own words, the deadliest ongoing conflict since 1945. The Eastern provinces of the Congo around Lake Kivu have proven to be the most violent area; neighbouring conflicts in Burundi, Uganda, and Rwanda spillover into East Congo and vice versa. The Congo's sheer size makes it hard for authorities to project force far into the interior from the capital in the West, and, if that wasn't bad enough, valuable mineral resources in the East make it possible for armed militias to capture and live off the land. Idjwi is unique, therefore, as an island of stability in the rocky seas of war. 
 
@@ -28,7 +30,7 @@ In PoliSci speak, we might say that Civil Society organisations are the ballast 
 
 Autesserre touches on the effects of modernity on traditional mores and the unintended consequences of "rationalising" social interaction rather than relying on mysticism. The old customs of many culture around the world may indeed be backwards and inscrutable to outsiders, but they can be used to create a culture of peace which late modernity and Enlightenment rationality erodes. It is best to seize onto and promote local beliefs which promote peaceful coexistence. One can only hope that Idjwi remains an enduring example of success. 
 
-## Chapter 2, *Role Models*
+### Chapter 2, LPI in the Congo 
 
 Vijaya and Autesserre both point to the Life \& Peace Institute as an example to emulate for promoting peace. It pioneered the "back-seat" approach in contrast to the "generalist" mindset which guides most "Peace Inc." strategies. The LPI liaison in the South Kivu, Hans Romkema, was eventually shouldered out of his work there when the status quo pushed back against it. Ultimately, Autesserre concedes that the failure of LPI was not letting Congolese people lead the efforts at building peace themselves. Romkema's successor, Alexandra Bilak, found through her project evaluations that LPI's work was not sticking, a failure attributable to their lack of local knowledge and networks despite a sound theoretical basis and international expertise. 
 
@@ -38,18 +40,40 @@ Under the leadership of Pieter Vanholder, LPI worked with three Congolese organs
 
 >  Instead, the role of outsiders is to help local people to better analyze their problems -- by providing safe spaces for residents to share their perspectives and confront difficult questions, which helps them move from accusations to enquiry. (56)
 
-Women and men of each party would meet to discuss what they wanted and what their proposals were before meeting with their counterparts on the other side. Through comparing notes, so to speak, the communities realised the presence of ethnically aligned militias had actually deepened the divide rather than protect their own. The dialogues lasted two and a half years. They resulted in a framework which allowed safe passage for herders under the supervision of chiefs who would protect the interests of farmers. LPI was also instrumental in keeping Kinshasa stakeholders informed of the process and bringing them on board to the agreed-upon framework. 
+Women and men of each party would meet to discuss what they wanted and what their proposals were before meeting with their counterparts on the other side. Through comparing notes, so to speak, the communities realised the presence of ethnically aligned militias had actually deepened the divide rather than protect their own. The dialogues lasted two and a half years. They resulted in a framework which allowed safe passage for herders under the supervision of chiefs who would protect the interests of farmers. LPI was also instrumental in keeping Kinshasa stakeholders informed of the process and bringing them on board to the agreed-upon framework.
+
+So in the end, the community conflict-resolution committees ended up replicating the function of a court system, but without the need for lawyers on retainer or bribes to judges (probably unavoidable, considering the lack of legitimacy the DRC government has). They success rate for settlements is far from perfect -- rising form 28% in 2013 to around 68% in 2014 -- but it's a remarkable start. Significantly, the framework eliminated the need for militia protection for both sides, so fighters demobilised and disarmed. By the end of Vanholder's tenure, LPI's Congo mission was their largest in the world. The successes of their work challenged long-held assumptions of international peace work, especially by doing it cheaply.
+
+Once LPI gained notoriety in the international discourse, their partners were flooded with funding to scale up rapidly. Unfortunately, this had more to do with disbursement targets of philanthropic foundations and less to do tangible results; on the local end, the new cash provided opportunities for embezzlement. Donors lost confidence and the LPI project imploded. Formerly demobilised militias took up arms again, which meant the farmer-herder framework broke down. The conflict-resolution committees were overwhelmed and the situation returned to status quo ante. 
+
+There are two interpretations of what went wrong. First, as Autesserre would probably argue, the Peace Industrial Complex can completely destroy a promising start because it is incentivised to maximise return on investment. The alternative explanation is that these promising starts are not necessarily sustainable in the long term without low-level outside assistance. Would the Ruzizi framework have lasted at all, even if the money hadn't smothered it all? As a counterfactual, there's no way of knowing for sure. But at least for a brief moment, people in the Ruzizi plain lived peacefully, and Participatory Action Research continues to shows promise where applied elsewhere in the Congo and in East Africa.
 
 To make a connection to some of the literature we've already read on mediation, many of the authors wrote that connecting elites to one another in mediated fora can be conducive to ending conflicts. While the empirical evidence suggests this method may work, Autesserre would be sceptical of the long-term results. She doesn't necessarily eschew elite involvement, she just prefers to focus on elites only one or two rungs from the bottom rather than from the top. 
 
-## Chapter 3, Kosovo
+## Part II: *Peace, Inc.*
 
-## Chapter 4, Designed Intervention
+### Chapter 3, Kosovo
 
-## Chapter 5, *Peace by Piece*
+In part II, Autesserre talks about the dominant approach of international peace organisations. Foreign interveners are half right that Europeans should abandon their sensibilities and ideas, but wrong as to why. It is not that violence is a primordial trait of people in conflict zones (and that Europeans should get used to it), but that they should actively decentre themselves as the primary agent of peacebuilding. At times, this chauvinism manifests more covertly: local partners couldn't be trusted because it was too much of a liability to explain to the organisation's leaders back home.
 
-## Chapter 6, *Recasting Roles*
+She writes about the "technocratisation" of peace work, by which I mean the insertion of professionals and academics into situations that require local more than general knowledge. This happens because country experts typically work for governments, not INGOs, and generalists can respond to a crisis anywhere with an existing "scientific" template that rests on observations empirically derived from large survey data across time and space. Career incentives for technocrats also discourage remaining in-country for long periods of time and building the necessary specialised skills. UN Peacekeepers are also rotated out on a half-year basis, and most UN troops are not themselves fluent in local language or custom to begin with. Peaceworkers who *do* have regional specialisation are often sent where they have no qualifications do work. Baffling. 
 
-## Chapter 7, *The Homefront*
+Autesserre's first deployment at 23 was to Kosovo, and she admits she accomplished nothing. As the token foreigner, her job was to oversee locals who honestly should have had her job. Being in over her head, she writes that this eroded her natural human empathy and patience, which undeniably reduced her impact as someone trying to build peace.
+
+The task of foreign interveners is not to assess the situation on the ground and derive solutions. Instead, they are to persuade locals that a pre-drafted program is good for them and to mobilise support for it. The only consultation is with national or local elites, not the intended beneficiaries of any program (I wonder if the *elites themselves* might be more rightly called the beneficiaries...). Local workers hired by INGOs are also keenly aware of the power hierarchy, and will sacrifice their own interests to do what is "expected" of them. (Enter Franz Fanon's entire body of work.) The sum of these prejudices and ignorances engenders resentment in the communities that need help. 
+
+It isn't a surprise, then, that colonialism has rubbed off on technocratic peacebuilding. The same bourgeois cultures are still trying to "civilise"" the same "Others" -- often the exact same "Others" who were so intensely colonised. Even if the extraction-colonialism has (mostly) ended in practice, the colonial mindset still governs the behaviour and perception of aid-workers.
+
+Path dependency on existing templates can be deadly. But there is hope, Autesserre writes: when peace-workers are deployed to places in which they *actually* are prepared to work, the work is not only more personally fulfilling but yields better results.
+
+### Chapter 4, Designed Intervention
+
+Autesserre moves on from the "technocratic" mindset to the state-centric approach. These two are undeniably related, but this time she focuses on the non-NGO side of the equation. 
+
+### Chapter 5, *Peace by Piece*
+
+### Chapter 6, *Recasting Roles*
+
+### Chapter 7, *The Homefront*
 
 
