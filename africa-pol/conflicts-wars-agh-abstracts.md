@@ -4,6 +4,14 @@ PS-4180
 \
 Alex Horne
 
+## Moss \& Resnick,  *Conflict, War, \& State Fragility*
+
+The authors write that most conflicts in Africa are difficult to resolve because they are hindered by prolonged political instability. Political violence exacts significant costs on individuals, nations, regions of nations, and from the entire global system. 
+
+The causes of conflict are myriad, and each conflict is caused by a mix of them. They list state weakness, strong traditional power bases, poverty, political competition over resources, winner-takes-all systems, and external meddling as the most important variables for predicting a breakout of war. They emphasise that ethnic divisions alone do not spark conflict or definitively explain how conflicts begin. However, research has established a relationship between under-development and conflict, but the direction of causality is far from clear. The "resource curse" hypothesis seeks to relate political violence to geographic endowments of non-elastically-demanded, centrally-located, simple-to-extract primary commodities (such as diamonds, oil, or gold). 
+
+Conflict in Africa has been so intense and so-prolonged that many states have become vulnerable or collapsed entirely. Major world powers regard failed states as a threat to global security, and thus there have been efforts to develop regional and international peacekeeping forces to prevent the spread of violence. External donors have employed conditional lending or suspended loan conditions so as to promote peacebuilding.
+
 ## Foreign Policy, *Failed State Index* (2009)
 
 The authors write that failed states are those which are unable to protect their citizens from violent conflict or provide the social institutions necessary for ordinary life. They ask what should be done by leading states in the global North to reduce the misery which inhabitants of failed states face. 
@@ -35,3 +43,5 @@ Third, Kaplan writes that institutional design (including clans as an instrument
 Where Kaplan focuses on the success of the north, Menkhaus is writing about the failure of statebuilding, peacebuilding, and other international initiatives in the south. Unique to the south is that it has been stateless for so long, meaning that the inertia of lawlessness is deeply entrenched. Despite having the deck stacked against them, Menkhaus writes that there have been local successes at governance-building without a government.
 
 Communities are never passive when anarchy erupts in failed states. They always seek to recreate the structures of collective security and basic governance in the absence of a state; sometimes they succeed, sometimes they fail, in varying degrees, owing to a many variables.
+
+
