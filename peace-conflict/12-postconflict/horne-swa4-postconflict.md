@@ -38,6 +38,20 @@ In Paris's more recent [blog posts](https://www.rolandparis.com/single-post/disi
 
 ## Menocal, 2011
 
+Menocal writes about the synthetic approach of "state-building for peace" 
+
 ## Barma, 2012
 
+Barma adopts a political economic approach to critique liberal peacebuilding. By choosing winners among elites and accommodating them with resources and credibility, the short-term incentives of a post-conflict polity make it simpler for elites to simply recreate patronage networks and dole out rents rather than build popular legitimacy.
 
+Barma, writing after Paris, is far from hyperbolic in her analysis of failed peacebuilding. Admittedly, the Afghan case is more akin to unilateral nation-building, so perhaps it is unfair to discuss it alongside multilateral UN missions. But the similarities are undeniable, even across polities and cultures as diverse as Cambodia, East Timor, and Afghanistan. Nonetheless, her results state a very obvious point to which Paris was blind. The journalistic record from Afghanistan also provides more evidence that Barma was right and Paris was not; the Taliban made efforts to *not* seek rents where the internationally recognised government did.
+
+East Timor's petroleum endowments made it simple and lucrative to use resource rents to consolidate the FRETILIN regime. This seems to track with research from pretty much everywhere that oil is antithetical to political democracy. The Timorese also inherited a "hollowed out" political system left behind by the Indonesians, designed to administer the territory with no regard to the welfare of the inhabitants. So maybe this much isn't attributable to the peacebuilding itself -- simply that peacebuilders failed to anticipate these problems. 
+
+Barma and Autesserre seem to agree that a major problem of liberal peacebuilding is that it floods a post-conflict zone with ample resources and money but the designated-legitimate elites still (justifiably) play a zero-sum game for resource competition. 
+
+This leaves us wondering what the meaning of Barma's contribution is. Is it, as Paris argues, just another variant of liberalism, because it emphasises institutional design and incentivising the right actions? Or is this simply bad conflict analysis leading peacebuilders to "choose" the wrong winners (if there are any "right" ones at all)?
+
+The first recommendation -- that there should be "uncertainty rather than inevitability" about who will be in charge of transition, is a *big* gamble. Uncertainty will further incentivise renewed violence, no? The second recommendation -- that elections be deferred -- is a political non-starter for liberals, so I think it's safe-to-say that Paris would draw the line here.
+
+I wonder what Barma would think about a bottom-up approach -- my instinct is that she would predict that a similar process reoccurs, where local elites seek rent and dole patronage, but the smaller scale limits the amount of total influence they have. This could may be work in tandem with renewed trusteeship administration, but that's a topic for another discussion.
