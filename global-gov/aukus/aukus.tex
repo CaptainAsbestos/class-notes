@@ -3,11 +3,12 @@
 
 %%Fonts \& Typesetting
    \usepackage{fontspec}%for XeLaTex, any OTF or TTF font installed will work
-    \setromanfont{New York Medium} %roman often overrides main font
+    \setromanfont{New York Small} %roman often overrides main font
     %\setromanfont{Hack}
-    \setsansfont{Frutiger LT Std 55 Roman}
+    \setsansfont{Lucida Sans Unicode}
     %\setsansfont{Ubuntu}
     \setmonofont{Hack}
+    \newfontfamily{\display}{New York Extra Large}
   %%\usepackage's are for pdfLaTeX
     %\usepackage{CormorantGaramond}
     %\usepackage{lmodern}
@@ -31,14 +32,16 @@
 %%Bibliograpy
 \usepackage{csquotes} %citations and block quotes
   \usepackage[notes,backend=biber]{biblatex-chicago} %citation style
-  \bibliography{japan} %% CHANGE THIS ON NEW DOCS
-  %\hypersetup{urlcolor=blue, colorlinks=true}
+  \bibliography{aukus-biblio} %% CHANGE THIS ON NEW DOCS
+  \usepackage[dvipsnames]{xcolor}
+  \usepackage[citecolor=teal,]{hyperref} %%makes urls in biblio clickable, the [ is for the ibid links]
+  \hypersetup{urlcolor=RoyalBlue, colorlinks=true}
+  \renewcommand{\thefootnote}{\textcolor{black}{\arabic{footnote}}}
   \renewcommand*{\bibfont}{\raggedright} %formatting Bib's font
   \usepackage[ragged,hang,bottom]{footmisc} %footnote customisation package
     \footnotemargin 0.125in %space between number and text
     \addtolength{\skip\footins}{1pc plus 5pt} %space above footnote line
     \interfootnotelinepenalty=10000 %% makes it near impossible for footnotes to be split across pages
-  \usepackage{hyperref} %%makes urls in biblio clickable
 
 %%Environment Styling
   \usepackage{titling} %Title Formatting
@@ -50,8 +53,9 @@
     \predate{\begin{flushleft}\large}
     \postdate{\par\end{flushleft}}
   \usepackage{sectsty} % Section Styling
-    \sectionfont{\sc\raggedright\singlespace\LARGE\color{blue}}
+    \sectionfont{\sc\raggedright\singlespace\LARGE\color{RoyalBlue}}
     \subsectionfont{\mdseries\singlespace\raggedright}
+
 
   \usepackage{etoolbox} %enables begin/end environment styling
     \AtBeginEnvironment{quote}{\singlespacing\small}
@@ -65,7 +69,7 @@
 
 
 %% MAKETITLE STUFF
-\title{Non-Proliferation in the Indo-Pacific}
+\title{\display Non-Proliferation in the Indo-Pacific}
 \author{Alexander Horne}
 \def\course{PS-6400} %defines the variable ``course''
   \makeatletter %this sets variables for invoking title, author &c
@@ -92,8 +96,6 @@
   \fancyhf[FRE,FLO]{\runCourse}
 
 \usepackage{lettrine}
-\usepackage{graphicx}
-\usepackage{xcolor}
 
 \usepackage[nottoc,numbib]{tocbibind}
 
@@ -117,14 +119,16 @@
 \renewcommand{\abstractname}{\sc\large Executive Summary}
 \begin{abstract}
 
-    On the fifteenth of September, 2021, the United States, Australia, and the United Kingdom announced a trilateral security pact for the Indian and Pacific Ocean Regions. AUKUS, as the pact is known, is part of a decades long ``pivot'' towards Asia to counter the growing influence of Mainland China. As part of the agreement, the UK and the US would help Australia acquire nuclear-power submarines, raising the spectre of renewed nuclear proliferation in one of the most security critical regions of the world. This paper argues that, even within the confines of non-proliferation protocols, the political precedent which AUKUS establishes opens the door for similar technology sharing on all sides, which serves to undermine a historically effective international security regime.
+    On the fifteenth of September, 2021, the United States, Australia, and the United Kingdom announced a trilateral security pact for the Indian and Pacific Ocean Regions. AUKUS, as the pact is known, is part of a decades long ``pivot'' towards Asia to counter the growing influence of Mainland China. As part of the agreement, the UK and the US will help Australia acquire nuclear-power submarines, raising the spectre of renewed nuclear proliferation in one of the most security critical regions of the world. This paper argues that, even within the confines of non-proliferation protocols, the political precedent which AUKUS establishes opens the door for similar technology sharing on all sides, which serves to undermine a historically effective international security regime.
 
 \end{abstract}
 %\smallskip
 
 \end{titlepage}
 
-\tableofcontents
+{\hypersetup{hidelinks}
+  \tableofcontents
+}
   \vfill
   \pagebreak
 
@@ -138,7 +142,14 @@ The United States remains the only state in the world to have used nuclear weapo
 
 Nuclear energy, on the other hand, is a permitted use for fission technology under international atomic protocol. Countries on every continent either current operate or plan on building nuclear reactors for civilian energy purposes. Nuclear reactors aboard navies allow ships to sail for years at a time without refuelling, requiring regular maintenance checkups. What all reactors have in common is the high cost of decommissioning spent fuel and worn out reactors.
 
-US nuclear designs leveraged their pre-existing ability to generate weapons grade uranium (above 90\% U-235) for their reactors; this is well above the needed quality for a reactor. France, despite also possessing the means to enrich weapons-grade material, has explored the use of low-enriched uranium (ca. 5\% U-235) for its own naval reactors.
+US nuclear designs leveraged their pre-existing ability to generate weapons grade uranium (above 20\% U-235, though US weapons material is often above 90\%) for their reactors; this is well above the needed quality for a reactor. France, despite also possessing the means to enrich weapons-grade material, has explored the use of low-enriched uranium (ca. 5\% U-235) for its own naval reactors. Brazil has followed France's lead in this area but has reserved the right to pursue Highly Enriched Uranium if it proves worthwhile.
+
+As of 2015, there exist over 150 nuclear powered military vessels, over half operated by the US.\autocite[3]{hippel2016banning}
+
+\subsection{Australian Nuclear Power}
+
+As the only member of AUKUS not possessing nuclear weapons, the question remains how the country will develop the means to build and maintain a conventionally armed nuclear-powered navy. The island nation relies extensively on carbon for domestic energy, but it is the world's third largest producer of uranium.
+
 
 \section{A New Cold War?}
 
@@ -151,18 +162,34 @@ From an Atlantic point of view, these alliances were too incohesive to last. Ind
 The new balance of power in the Indo-Pacific is markedly different from that of 1945.
 
 France paragraph
+
 New Zealand paragraph
 
+\section{International Precedents}
 
-\section{Australian Nuclear Power}
+\subsection{The AUKUS Loophole}
 
-As the only member of AUKUS not possessing nuclear weapons, the question remains how the country will develop the means to build and maintain a conventionally armed nuclear-powered navy. The island nation relies extensively on carbon for domestic energy, but it is the world's third largest producer of uranium.
+First, the success of the existing non-proliferation regime must be recognised. While full de-nuclearisation should be among the top security priorities of every country on Earth, it is remarkable that so few countries have obtained nuclear weapons while nuclear energy is widespread. Not all the credit goes to the IAEA and nuclear powers, of course -- but it needs to be stressed that the system has worked and can work.
 
-\section{International Precedent}
+By the US military's own admission, it would take nearly 20 years to develop a working LEU alternative to their HEU systems. In the mean time, HEU is presumably the \textit{only} system that AUKUS members could use, which opens a serious gap for diversion of materials for weapons purposes. This loophole thus sets a precedent for less savoury actors around the world to acquire HEU through naval technology sharing.
+
+Defenders of the AUKUS loophole might argue that it had already existed -- since 1958, in fact. The British navy, despite developing its own weapon, relied on US-made HEU for its vessels, and it would continue to receive the United States' spare HEU even after the Cold War ended.\autocite[39. Footnote 32.]{hippel2016banning} The extension of this same courtesy to Australia, therefore, is natural, even preferable, since Australia has neither atomic weapons nor civilian reactors. This argument does not change the fact that this loophole has long been recognised as a chink in the armour of the non-proliferation regime. Furthermore, the international context can only be compared most broadly. The IAEA had only just been established in 1957; by the '90s, strategic limitation treaties had begun curtailing and dismantling excess nuclear material. Today, the US has been \textit{modernising} its remaining arsenal, not diluting the existing HEU.
+
+The only true solution, as von Hippel\autocite{hippel2016banning} argues, is a truly proscribing the production of HEU for any purposes.
+
+\subsection{Shared Vulnerability}
+
+The concept of shared vulnerability was first derived from game theoretic models of security dilemmata.
+
+Conventional surface navies, in a real peer competition, are little more than floating targets; they are more useful for enforcement and force projection against much weaker opponents. Submarines, on the other hand, are immune to the dangers of surface weapons
+
+
 
 \end{multicols}
   \pagebreak
 
+\nocite{philippe2014safeguarding}
+\nocite{costa2017brazil}
 
 \printbibliography[heading=bibintoc,title=Bibliography]
 
