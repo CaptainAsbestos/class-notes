@@ -3,11 +3,13 @@
 
 %%Fonts \& Typesetting
    \usepackage{fontspec}%for XeLaTex, any OTF or TTF font installed will work
-    \setromanfont{New York Medium} %roman often overrides main font
+    \setromanfont{New York Small} %roman often overrides main font
     %\setromanfont{Hack}
-    \setsansfont{Frutiger LT Std 55 Roman}
+    \setsansfont{Lucida Sans Unicode}
     %\setsansfont{Ubuntu}
     \setmonofont{Hack}
+    \newfontfamily{\display}{New York Extra Large}
+    \newfontfamily{\displaysubtitle}{New York Large}
   %%\usepackage's are for pdfLaTeX
     %\usepackage{CormorantGaramond}
     %\usepackage{lmodern}
@@ -18,7 +20,7 @@
     %\usepackage{garamondlibre}
     %\def\ttdefault{lmtt} %latin modern mono
     %\renewcommand{\familydefault}{\sfdefault} %switches default to sans serif
-  %\usepackage{microtype} %pretty kerning
+  \usepackage{microtype} %pretty kerning
   \usepackage{setspace} %setspace and setstrecth
   \usepackage{lipsum} %generates lorem ipsum
   %\usepackage{blindtext}
@@ -31,14 +33,16 @@
 %%Bibliograpy
 \usepackage{csquotes} %citations and block quotes
   \usepackage[notes,backend=biber]{biblatex-chicago} %citation style
-  \bibliography{japan} %% CHANGE THIS ON NEW DOCS
-  %\hypersetup{urlcolor=blue, colorlinks=true}
+  \bibliography{cuba-biblio} %% CHANGE THIS ON NEW DOCS
+  \usepackage[dvipsnames]{xcolor}
+  \usepackage[citecolor=teal,]{hyperref} %%makes urls in biblio clickable, the [ is for the ibid links]
+  \hypersetup{urlcolor=RoyalBlue, colorlinks=true}
+  \renewcommand{\thefootnote}{\textcolor{black}{\arabic{footnote}}}
   \renewcommand*{\bibfont}{\raggedright} %formatting Bib's font
   \usepackage[ragged,hang,bottom]{footmisc} %footnote customisation package
     \footnotemargin 0.125in %space between number and text
     \addtolength{\skip\footins}{1pc plus 5pt} %space above footnote line
     \interfootnotelinepenalty=10000 %% makes it near impossible for footnotes to be split across pages
-  \usepackage{hyperref} %%makes urls in biblio clickable
 
 %%Environment Styling
   \usepackage{titling} %Title Formatting
@@ -50,13 +54,21 @@
     \predate{\begin{flushleft}\large}
     \postdate{\par\end{flushleft}}
   \usepackage{sectsty} % Section Styling
-    \sectionfont{\sc\raggedright\singlespace\LARGE\color{blue}}
-    \subsectionfont{\mdseries\singlespace\raggedright}
+    \sectionfont{\sc\raggedright\singlespace\LARGE}
+    \subsectionfont{\sc\mdseries\singlespace\raggedright}
+  %% Sections use Roman Numerals
+    \renewcommand{\thesection}{\Roman{section}}
+    \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+  %% Table of Contents Styling
+    \usepackage[titles]{tocloft}
+    \renewcommand{\cftsecfont}{\color{RoyalBlue}}
 
   \usepackage{etoolbox} %enables begin/end environment styling
     \AtBeginEnvironment{quote}{\singlespacing\small}
     \AtBeginEnvironment{abstract}{\setstretch{1.15}}
     \AtBeginEnvironment{multicols}{\setstretch{1.15}}
+
+
 
 %%Watermarking
   %\usepackage{draftwatermark}
@@ -65,8 +77,8 @@
 
 
 %% MAKETITLE STUFF
-\title{Ending the Embargo:\\Resetting Relations with Cuba}
-\author{Alexander Horne}
+\title{\Huge \display Ending the Embargo: \\ \LARGE \displaysubtitle Resetting Relations with Cuba}
+\author{\large Alexander Horne}
 \def\course{PS-6120} %defines the variable ``course''
   \makeatletter %this sets variables for invoking title, author &c
   \let\runauthor\@author
@@ -85,15 +97,13 @@
   %\lhead{\runCourse}
   %\setlength{\headheight}{40pt}
   \cfoot{} %keeps center empty
-  \fancyhead[RE,LO]{\runauthor}
+  \fancyhead[RE,LO]{Alexander Horne}
   \fancyhead[LE,RO]{\sc Ending the Embargo}
   %\fancyhead[LE,RO]{\setmainfont{New York Small}\runauthor}
   \fancyhf[FLE,FRO]{\thepage}
   \fancyhf[FRE,FLO]{\runCourse}
 
 \usepackage{lettrine}
-\usepackage{graphicx}
-\usepackage{xcolor}
 
 \usepackage[nottoc,numbib]{tocbibind}
 
@@ -117,183 +127,107 @@
 \renewcommand{\abstractname}{\sc\large Executive Summary}
 \begin{abstract}
 
-  As Great Power Competition between the People's Republic of China and the United States becomes more likely, some have suggested revisiting Japanese rearmament as a way to counter the status-seeking of the PRC and exert pressure on the DPRK. Japan's Self Defence Forces already maintain a great capacity for war-fighting, pushing against their constitutional mandates; the question is thus how their legality can be clarified. With the historical context of Japanese militarism, it is apparent how Japanese signals are uncharitably interpreted by regional rivals, whatever their intentions may be. On the list of policy menu options, resuming the right to belligerency is a very bad idea. Perpetuating the current security relationship between the US and Japan is the best possible and most realistic proposal. If Japan really does want a rules-based international order in East Asia, changing its own rules surrounding the SDF is counterproductive to that endeavour.
+    Since 1959, The United States has pursued a policy of economic warfare against the island of Cuba despite it never accomplishing the goal of regime change. The embargo, made law by Congress, harms the most vulnerable and marginalised people in Cuban society, makes it impossible for an entrepreneurial class to develop, and reveals the hypocrisy of American foreign policy. The time has come for the US to abandon this senseless Cold-War mindset and work as neighbours with Cuba to fight the deadly Coronavirus disease. If the US wants other countries to help enforce a ``rules-based international order,'' the US should begin by doing the same in its own sphere of influence. Though any change of policy will encounter stiff resistance from Congress and Florida, there still remain several opportunities to take action through Executive Orders.
 
 \end{abstract}
 %\smallskip
 
 \end{titlepage}
 
-\tableofcontents
+{\hypersetup{hidelinks}
+  \tableofcontents
+  \addtocontents{toc}{~\hfill Page\par}
+}
   \vfill
   \pagebreak
 
 \begin{multicols}{2}
 
-\section*{Introduction}
+\section*{From Monroe to Castro}
 
-As the United States pivots towards a renewed great power competition with the People's Republic of China, some writers and thinkers in the international security discourse have raised the possibility of a ``NATO for the Pacific,'' a kind of resurrected SEATO. As part of these discussions Japanese remilitarisation has received renewed attention as a possible solution to maintain the balance of power. In this paper, I contend that the argument for Japanese rearmament rests on unsound assumptions -- assumptions which can lead to dangerous conclusions. On the contrary, an \textit{im-}balance of power so heavily skewed towards the US for so long is adjusting itself.
+Any discussion of the embargo cannot begin with the 1959 revolution. The United States and Cuba have a long history stretching back centuries which coloured their relationship even before the Cold War. The broad strokes of this relationship persist even as everything else changes.
 
-\section{Historical Background}
+Mainland North America was always Cuba's most natural trading partner, owing to its proximity. The antebellum slave economy of the American South viewed Cuba as a necessary bulwark against an uprising like in Haïti; annexing Cuba as a state was even considered as a way to maintain the preeminence of slave-states in the federal Senate. Under the Monroe doctrine, the US claimed the entirety of the Americas as under its sphere of influence, nominally to preserve the democratic spirit but in practice to facilitate US business interests. The 1898 Spanish American War began in Cuban territory and featured American expeditions on the island to kick out the Spanish. Even after independence in 1902, Cuba was a puppet state of the US, controlled by wealthy foreign interests yet buffeted by political coups, US occupation, and popular revolts.
 
-  Japan's imperial wars offer the necessary context to understand the opposition to Japanese rearmament which is not based on the 1951 Treaty of San Francisco. Throughout history, Japan's main geopolitical rival has historically been China. Almost always, Japanese military policy begins and ends with controlling Korea.
+On 26th July 1953, Fidel Castro's cadres attacked the Moncada Barracks in Santiago before being captured by forces of the Fulgencio Batista regime. Many were executed, but Castro and his brother Raul were imprisoned before being released into exile in 1955. The 26-7 partisans returned to the island in 1956, beginning a years long campaign up the island from the south. The US supplied the Batista forces until 1958; the Soviet Union had no interest in supporting the revolutionaries with material until the fighting was almost finished.\autocite{samson2008soviets} The US recalled its ambassador and embargoed the government before Batista had even fled the country on New Year's Day of 1959.
 
-\subsection{Meiji Era}
+\textit{El Bloqueo}, the ``blockade'' in Spanish, was created piece-by-piece over 60 years.
 
-  To properly contextualise the military situation today requires beginning a century and half ago. The US forcing open Japanese trade at gunpoint in 1853 motivated the Empire's decision to rapidly modernise; over the course of what became known as the Meiji Restoration, a great deal of power was centralised under the cabinet governing on behalf of the emperor. There was little meaningful democratic oversight, owing both to the cultural reverence for hierarchy in premodern Japan as well as the structural of the nascent Imperial state. It was not at all surprising that the Military and Navy especially emerged as influential sources of foreign policy.
+\subsection*{Since the Special Period}
 
-  After building the heavy industrial capacity necessary to field a modern, Western-style army, Japan began conquering overseas territories and assembling an empire of its own. Once again, this arose not merely from the militarisation of its foreign policy but also from an unfortunate history of Japanese military adventures in continental East Asia.
+Embargo-apologists will argue that the havoc wrought by sanctions is downstream from structural inefficiencies in state-managed economies. This is absurd. A 2018 UN study has concluded that the embargo cost the island 130 billion inflation adjusted US dollars over sixty years (over two billion per); compare that to its 2019 GDP of 103.1 billion USD, its most productive year yet.\autocite{worldbankcuba} Suffice to say is a non-negligible sum of capital.
 
-  Korea was the first to be colonised, though it was no sudden event: the \textbf{Japan-Korea Treaty of 1876} began the long process of annexation, ending in 1897 when the so-called Korean Empire was made a 'protectorate' of Japan. While Japan was not yet a peer-competitor with European powers in the region, it recognised that an unaligned, backwards Korea stood to weaken Japan's security. The terms of the 1876 treaty were an echo of the same gunboat diplomacy which the US visited upon Japan in 1853. The occupiers sought to ``Japanise'' the peninsula, a mere euphemism for extraction colonialism at the expense of the Koreans. The seeds of Korean resistance were sown during this period.
+At no point did Cuba possess its own weapons of mass destruction or the means to produce them. It certainly \textit{hosted} Soviet WMDs, but that was accepted practice between allies (NATO did the same in Italy, for instance, without suffering withering sanctions from the Eastern Bloc). Then why has the United States continued to treat Cuba as if it were as threatening to its security as North Korea or Iran? 
 
-  The war of influence in the Joseon court spiralled into the First Sino-Japanese War, which broke out after a long series of assassinations, coups, counter-coups, and uprisings against both the Qing-backed King and against the Japanese empire. Poor logistics lost the war for the Chinese, despite having a numerical and equipment advantage over the Japanese. The 1895 Treaty of Shimonoseki ceded Korea, the Liaodong Peninsula, and Taiwan to Japan in perpetuity, but this would not be the last Japanese intervention in China. The Boxer Uprising from 1899 to 1901 saw the Japanese join the imperialist coalition to suppress anti-foreign resistance in northern China.
+\vfill
+\pagebreak
+\section{Economic Warfare}
 
-  The Russian empire also participated in the anti-Boxer coalition, invading and then occupying Manchuria. After the end of the coalition, the Russians did not vacate the territory. The Port of Dalian was to be connected to the Trans-Siberian Rail -- which deeply alarmed Japanese strategists. In keeping with Japanese doctrine that a weak Korea weakened Japan's security, they preferred to launch a preemptive naval attack at Dalian and land in Northern Korea before the Russian rail was complete. The only other naval forces the Russians had were in the Baltic, who spent months sailing around Africa (thanks to Britain closing the Suez Canal to the Russians at Japan's request). Once the Baltic fleet arrived in the Sea of Japan, the Japanese Navy routed them.
+Economic warfare leverages the centrality of one state in the world economic order to coerce other states into complying with its wishes, less physical harm be visited upon them. The harm is not overt violence at the end of a gun barrel, but indirect harm resulting from structures of violence in world economics. The deprivation of Cuba is an example to all other American countries which might consider resisting the will of the US -- the point is not to win, the cruelty is the point.
 
-  The political consequences of these three events were monumental. First, the Militarists felt vindicated by their foreign and domestic policy up to this point, even if the Japanese losses outnumbered Russia's. The military had always enjoyed autonomy from civilian authority, but at this point, the military began to overrule civilian input. Second, Japan now sought status as a peer of European empires, which they were not willing to afford it.
+\subsection*{Sanctions Kill}
 
-\subsection{The World Wars}
+Sanctions have been employed to ``soften up'' targeted states before invasion, such as interbellum Iraq in the '90s.\autocite{crossette1995iraq} By depriving a state of the means to trade equitably with other countries. Humanitarian exceptions, such as food and medicine, are often allowed (but not always) but are not fully utilised. Nobody wants to be seen conducting business with a sanctioned state or official -- and certainly not for \textit{profit}.
 
-Looking on a map of European possessions in China in 1914, it's quite apparent why the Japanese preferred to seize the German `lease' at Qingdao. The Entente Alliance controlled vastly more territory and was already well-established throughout East Asia; the Germans had less territory and were less able to defend it. By the end of the war, Japan had become a creditor to the Entente; at the Paris Conference in 1919, Japan received Germany's territory in Shandong. Japan was made a member of the League of Nations Council, but the delegation's proposal that a racial equality amendment be introduced to the Versailles Peace Treaty was rejected. Japan's status as a global power was once again insulted.
+Sanctions and embargoes are not a one-size-fits-all tool. Ironically, because they require the target to be economically dependent on other states, they work best against tightly integrated economies -- which are typically \textit{not} political enemies in the first place. This is especially true for present-day Cuba, which has survived for 20 years without a major foreign patron and has learned to live without its natural trading partner, the United States, for 60 years.
 
-The Anglo-Japanese alliance expired in 1923, and by this point, Japanese leadership had soured on cooperation with Western Europe. By the end of the decade, Japanese officers were deliberately provoking Chinese warlords into conflict with false-flag attacks and undeclared wars. In 1931, the Japanese invaded Manchuria on false pretenses, which was declared a violation of international law by the League of Nations. In response, Japan exited the League, seeking new political allies in Nazi Germany and Fascist Italy, who shared the Japanese Empire's disregard for the League's authority.
+Sanctions also work best against governments which are bad at managing their minimal ruling coalition. Party-States, for all their inefficiency, are purpose designed to minimise internal contestation over resources.\autocite{escriba2010dealing} This is a key mistake the US has made -- Cuba is not a personalist dictatorship, no matter how beloved Castro was.
 
-Japanese Manchuria, rechristened as Manchukuo, installed the last Qing emperor as head of state in his ancestral homeland, giving cover to a similar colonial project of economic modernisation which had already begun in Korea. In truly naked imperialist fashion, Manchuria was a territory from which to extract resources, export finished goods to an exclusive market, and reconcile the contradictions of the Japanese economy during the hardship of the Great Depression. The antagonistic military strikes persisted, as the fragmented warlords of China fought for primacy against each other and the Japanese. In 1937, one of these ``incidents'' escalated into the Second Sino-Japanese War, beginning the Asia-Pacific Theater of the Second World War.
+\subsection*{The Definition of Insanity}
 
-In response to the invasion of China proper, the US sanctioned Japan economically, specifically restricting its access to petroleum in 1941. Eighty percent of Japan's oil was imported from the US, so the embargo forced a reaction: to keep their imperial wars running, they had to strike out while they still could. Hoping to recreate the success of the Port Arthur attack, the IJN conducted the pre-emptive strike against Pearl Harbor. Was this a sound or realistic plan? Not very. But this was the inevitable end of decades of militarised foreign policy.
+It is cliché to remark that 60 years of the same policy with no result in sight is the definition of insanity. At least at the outset, the embargo made \textit{some} sense, even if it is considered an act of war under international law. The Cuban economy was historically dependent on trade with the US and the Cubans did offer terms for compensated land reform (which were refused). But in 2021, with the Soviet Union long gone and with only the US continuing to embargo the island, what purpose does this failed policy serve? The answer might be that the embargo is actually a domestic political matter in the US, not a strategic foreign policy. At the risk of sounding technocratic, domestic wedge issues should not override sane and sustainable foreign policy. Indeed, some of the greatest windfalls in US diplomatic history involved making ``nice'' with regimes far more bloodthirsty than Castro's Cuba.
 
-The war against Japan from 1937 to 1945 was the largest land war in Asia in the entire 20th century. Japan committed numerous war crimes throughout China, Korea, the Philippines, Vietnam, Indonesia, to name a few (for the sake of brevity, I will not enumerate the events in detail here). By the end of the war, Japan was economically devastated, utterly unable to defend itself. The US still used its atomic weapons to end the war before the Soviet Union could move to acquire territory in the East. Only after the Emperor made the unprecedented move of intervening in the General Staff's planning did the Empire agree to unconditional surrender.
+Sanctions were also successfully used to end white minority rule in South Africa and Rhodesia, but that does not mean that we should expect the embargo to have a similar effect in Cuba. First, the White Minority governments were always recognised as alien by Black Africans; the \textit{reverse} is true in post-revolutionary Cuba, where memories of ``\textit{gangsterismo''} and American cronyism still legitimate the regime. Second, the African National Congress was waging a viable insurgency in the region; the same cannot be said for Cuban Diaspora in the US. Those who did work with the US intelligence service bombed hotels and aircraft but never made serious efforts to land on the island after the Bay of Pigs. Third, the sanctions against Apartheid states had broad international support, including the former coloniser Britain. The same cannot be said for the US's Cuba embargo; it has been roundly condemned by the United Nations for 29 years straight.\autocite{un29condemn}
 
-The war in East Asia is the seminal event which affects perceptions of Japanese defence policy. Almost none of it was waged on a legal basis and the war galvanised the entire region into anti-imperial struggle. That struggle still informs the defence policies of every other nation which was ever touched by Japanese aggression.
+\vfill
+\pagebreak
+\section{Current Crisis}
 
-\subsection{The Democratic Era}
+The first generation of Cuban statesmen and women with no memory of the 1959 Revolution has entered politics; likewise, the citizens of Cuba have no personal memory of pre-Revolutionary Cuba. The people will be demanding more from their government and won't buy the same explanations for their hardship -- but Washington should not presume that the Cuban people are clamouring to overthrow the government either.
 
-Despite the preemptive display of atomic might against Japan, Soviet influence endured in East Asia. The so-called ``fall of China'' should not have taken the West by surprise, but it immediately dispelled any idealist hopes for security policy in Japan. The Korean War required moving US troops stationed in Japan to the peninsula, and the need for a quasi-military force to replace them was evident.
+\subsection*{Escalating Sanctions under Trump}
 
-From 1955 to 1993, Japan was continuously governed by the Liberal Democratic Party but without the two-thirds majority necessary to amend the constitution. The Japan Socialist Party was never able to form a meaningful opposition. One of the most divisive issues between the LDP, a party formed by former civilian bureaucrats during the Empire, and the JSP, the underground trade unionists, was the constitutionality of the NPR and the SDF after them.\autocite[55]{sissons1961pacifist} The socialist leadership pressed their case to the Supreme Court, where the court determined that no court in Japan had the right to hear the case.
+The Trump Administration pursued a host of extra punitive measures against Cuba in the run up to the 2020 election. This included the removal of medical and humanitarian exemptions from the list of embargoed goods and services; money remittances from Cubans abroad to their families back home were also stopped. This last measure had a disproportionate effect on the poorest of Cuban society.
 
-With the end of the Cold War, Japan's self-defense priorities changed overnight. The Sino-Soviet split sans Soviet no-longer divided Japan's regional enemies. Soviet economic support to North Korea evaporated, leading to a terrible famine at the exact moment when Kim Il-Sung's death created a power vacuum in the North. Scandals and an asset bubble's burst in Japan broke the LDP's stranglehold over the Diet, and a Grand Coalition was made with the JSP in 1994. The Coalition ended in 1996 with the LDP emerging stronger than before and the JSP made vestigial to the point of formal dissolution.
+\subsection*{Coronavirus \& Summer 2021}
 
-Since the collapse of the Japanese Left, political antimilitarism has eroded and a new nationalism has crept back into the discourse. Crimes committed by American troops in Okinawa, environmental damage from US activity, and military accidents receive a great deal of attention, most of it negative; the Japanese State also has to pay part of the costs of maintaining the installation.
+Despite its low level of economic development, Cuba's health system is recognised around the world as one of the best. Partly because medicines and equipment are in short supply or explicitly embargoed, Cuba developed independent manufacturing capacity, training, and research centers out of necessity as much as ideological commitment to national sovereignty. As the SARS-CoViD-19 epidemic mutated into a pandemic, the Cuban medical system developed its own vaccine independently. Remarkably, the Soberana vaccine beat the US-made vaccines to market. However, a shortage of hypodermic needles and syringes, not doses, meant that Cuba was unable to inoculate its citizens, so it began exporting the surplus doses to countries-in-need. As the pandemic continues, the Cuban government has accomplished much more than expected with far less, and the US is losing an important propaganda battle thanks to its commitment to embargo.
 
-Even though the Japanese constitution surrenders the right to wage war, JSDF troops have participated in UN peacekeeping operations in the Persian Gulf and in joint military exercises with the US. In 2019, Japan spent 47.6 billion USD (adjusted for 2018 exchange rates) on defence; by comparison, the Republic of Korea spent 43.8 billion, the PRC 261 billion, and the US 731.8 billion.\autocite{stockholmreport} Japan has a self-imposed limit of only spending up to 1\% of its GDP on defence, but considering the productivity of the Japanese economy, this places it in the top 10 of all countries vis-à-vis military spending. US military presence in the islands guarantees their territorial integrity, though this is not without opposition from left and right in Japanese politics.
+The combination of escalating sanctions and pandemic-caused shortages in the global economy led Cubans to take to the street in protest of their government in August 2021. These were the largest protests the country had seen since the Special Period. Critical protestors were arrested by police and the US sanctioned several top police officials under the 2016 Global Magnitsky Act. Counter-protests in support of the regime were organised as well. It is reasonable to assume that both the US and the Cuban state had a hand in coordinating their respective demonstrations, but that many protestors on all sides marched of their own free will.
 
-\section{Sources \& Motivators of Security Policy}
+This certainly appears to be the golden moment that an embargo was designed to produce: broken political promises and popular outrage in a period of acute economic crisis. But it would be a mistake for the US to pursue its own narrow self-interest, exploiting a global health crisis to remove a thorn in its side. The exact same crisis, pandemic aside, came and passed in the 1990s; Cuba's revolution survived intact while the Post-Soviet bloc experienced a decade of economic ``shock therapy'' and a precipitous collapse in living standards. What the world needs is for the US to work with its neighbours to fight threats like disease, poverty, and climate change, not against the ghosts of the Cold War.
 
-Izumikawa indentifies the ``fear of entrapment'' as a significant motivator in Japan's antimilitarism:\autocite[125]{izumikawa2010antimilitarism} namely, the fear that alliance-commitments may drag one state into an unncessary conflict. As Japanese people's perception of China as an imminent threat increases, their
-fear of entrapment will diminish in equal measure.\autocite[Chapter 3]{smith2019rearmed} The fear of abandonment by their nuclear patron will endure so long as the DPRK missile capabilities persist and so long as the PRC intends to build a sphere of influence around itself.
+\vfill
+\pagebreak
+\section{Recommendations}
 
-Anti-nuclearism informs security policy as well. The Three Non-Nuclear Principles -- non-possession, non-production, and non-introduction -- have been upheld by successive governments. However, the perennial presence of US forces led Cold-War era Defense Ministers to take for granted the US nuclear umbrella. Since the DPRK successfully tested their warheads and delivery systems, however, Japanese politicians have been more explicitly vocal in their reliance on US extended deterrence.
+If the United States wants other countries to believe its call for a ``rules based international order'' is more than mere rhetoric, it begins with respecting international consensus around the embargo. Not only is this the ``right thing to do,'' it will also defang accusations that the US is politicising human rights in other regions. Lastly, lifting the embargo could finally create economic room for the Cuban entrepreneurial class to breathe -- which could ultimately be the beginning of \textit{actual} political change on the island.
 
-In the constructivist analysis of Japanese security policy, anti-militarism is a much discussed motivator for security policy. However, a 2012 polling experiment tested this widely held assumption before and after the first Diaoyu/Senkaku Islands confrontation, concluding that antimilitarism is not always the primary factor in public attitudes vis-à-vis use of force.\autocite{izumikawa2013attitudes} Revisionist attitudes towards the empire's many crimes have also never been completely expelled from the discourse or even the ranks of the SDF.\autocite[Chapter 4]{smith2019rearmed}
+\subsection*{A New Strategy for Florida}
 
-At the inception of the SDF, planning and decision-making was suborned to the Diet. Military advice was not offered or sought, and there was no one Defense Ministry. Several crises in the '90s revealed the vulnerabilities of the arrangement. Terror attacks and a botched response to the 1995 Earthquake showed that Japanese Police and municipal authorities were not up to the task of protecting the Japanese people. Since then, the Diet has passed legislation to facilitate cooperation between the SDF and civil authorities. Regional administrators have asked the SDF to protect them from North Korean attack, and the SDF led the disaster relief for the 2011 earthquake. As a result, the SDF has become one of the most well-respected institutions in Japanese society, according to public polling.\autocite[Chapter 4]{smith2019rearmed} Military leaders are now invited to advise political leaders, and many former SDF servicemembers have gone into politics (almost all of them as members of the LDP). Abe Shinzō also reorganised the intelligence services into the National Security Secratariat, which reports directly to the Prime Minister's office.
+As home to the largest Cuban-American community in the country, Florida's voters care a great deal about the embargo. However, this is not to say that they monolithically support the embargo: surveys have demonstrated that support for the embargo is neither constant\autocite{symbolic2010girard} nor universal.\autocite{grenier20182018} In recent elections, the Cuban-American community has tended to vote for the Republican Party in greater numbers with each year\autocite{krogstad_2021}, which is alarming if the Democrats want a key Latino constituency in a presidential swing state.
 
-While there is certainly a substantive difference between the imperial army and the present SDF, these developments are reminiscent of old, worrying practices to which Japan's regional rivals are almost certainly sensitive. Popular checks on the military are being undermined one by one, as illustrated in the strange case of the SDF's deployment to South Sudan.\footnote{\url{http://www.asahi.com/ajw/articles/AJ201804030044.html},Asahi Shimbun, April 3, 2017.} The SDF is mandated by the Diet to not remain abroad in a coalition Peacekeeping Operation if it cannot perform its mission safely and effectively (in other words, any situation in which soldiers with guns are necessary -- it makes sense when one remembers the fear of entrapment). The MSDF and ASDF had been able to integrate into other PKOs, but the GSDF in South Sudan knew they were unable to fulfill their mandate without risking attack on themselves. Rather than report this to their civilian masters, the internal memo stayed internal until it was leaked, raising questions about how seriously the SDF respects the authority of the Diet. This might seem like a trivial issue on the extreme end of a spectrum for use-of-force policies, but with the widespread revisionist attitudes in Japanese society, it cannot be ignored.
+However, continuing to pursue the Cuban vote \textit{as Cubans} is a mistake. For one, the memory of pre-revolutionary Cuba is fading fast, and young people of Cuban heritage who are raised to despise Castro will not be easily persuaded to vote Blue. There are other explanations for the rightward drift of Cuban Americans; the median age is older than other Latin-American demographics (which correlates with right-leaning voting preference); many are full citizens and not undocumented immigrants; as a demographic they are wealthier than other Latin-Americans.\autocite{noe-bustamante2019pew} The median Cuban-American Voter, therefore, is exactly who the Republicans specialise in appealing to: aging, wealthy, middle-class. But successive waves of Cuban emigrants also have different political priorities: the post-1995 cohort favour rapprochement on economic issues while the pre-1995 cohort stand resolutely against it.\autocite{grenier20182018} The Cuban Republicans are a firewall constituency on the right while the non-affiliated Cuban American voter finds little political representation in state elections and midterms. Most importantly, Grenier et al. found that a candidate's position on Cuba was the least important motivating issue for Cuban-American voters -- so why is this failed policy renewed every four years?
 
-\section{Modern Japan's Security Priorities}
+These data should serve as the basis for a new Florida electoral strategy, from the White House down to City Council: a different pitch to Florida's voters is necessary to stop the bleeding. Chasing Republican-inclined constituencies has allowed Cuba policy to drag the Democratic platform in Florida away from a clear-sighted reasoning and into performative posturing which will never be hawkish enough. Worse still, this leaves the left-flank unguarded -- anybody remember Nixon in China?
 
-The so-called Yoshida Doctrine accepted the US security umbrella while stressing the wide latitude for economic development which the military presence afforded. The public outrage to Nobusuke Kishi's attempt to reexamine the US-Japan Security Treaty led to his resignation.
+Since the embargo is ultimately enshrined in Congressional law, the only way to meaningful and irreversible progress in Cuba is a new electoral strategy. Perhaps it will require a foreign political shock to ``de-politicise'' ending the embargo, like the collapse of the Soviet Union made partial nuclear disarmament feasible. But if CoViD-19 serves any indication, it is that major world catastrophes only justify tighter sanctions. With change in Congress a distant dream, there still remains what the White House can accomplish unilaterally.
 
-In the 21st century, successive Japanese governments have also emphasised Japan's commitment to a liberal, rules-based, international order in East Asia. As a country without the right to military belligerency, Japan relies extensively on easy access to international markets to increase its power, according the realist interpretation. One underdiscussed aspect of this commitment in the literature is that a liberal world order is not as fair and equitable to all states as neoliberals would have you believe. The fear-of-missing-out in the WTO motivated China to enter the organisation when it suited their immediate political interests, but liberal institutions create new winners and new losers, not just between states but also within them. The Communist Party of China is seeing the end of the utility of the WTO, and political activists in other Pacific countries have as well. Japan and the US should consider whether it would be wise to decouple the concept of economic globalisation from economic security, as a way to elongate the peace on East Asia's seas.
+\subsection*{Executive Actions}
 
-\subsection{Korean Security}
+The Biden Administration has demonstrated the courage to do what is right on foreign policy, no matter the cost. The withdrawal from Afghanistan in 2021 was a long-overdue acknowledgement that the cause had been lost since 2002. It seems natural that a similar logic should extend to the Cuban embargo, which has lasted three times as long as the US expedition in Afghanistan. Maybe the administration has already burned through its remaining political capital, but the state of emergency surrounding the worldwide fight against CoViD-19 can justify the temporary alleviation of sanctions on a trial basis.
 
-Whereas the US Forces Japan have historically act as \textit{as} the army of Japan, the US's relationship with the Republic of Korea is a more typical alliance between political equals. Seoul, for its part, plans and operates independent of Japanese input, as much because of constitutional limits in Japan as not wanting to spook Pyongyang.
+Personal sanctions against individuals in the Cuban government are a preferable alternative to a broad embargo against the entire country; suffice to say that these should not be reconsidered.
 
-Japan's Ballistic Missile Defenses cannot be used to intercept missiles headed to the United States themselves, only to intercept missiles targeting US Forces in Japan, which is required under the treaty. The Japanese Coast Guard also patrols the sea for North Korean vessels to enforce the sanctions regime, and the JCG is the only Japanese force which has ever fired upon a foreign vessel since 1945\autocite[Chapter 3]{smith2019rearmed} (in 2001, the JCG sank a North Korean ship in China's EEZ).
+Business wishing to utilise the humanitarian exceptions to the embargo still face a significant amount of bureaucratic red tape to acquire permissions for business with Cuba. This obstacle is by design, not accidental; the only way to remove it will be ending the embargo across the board, which reduces the additional scrutiny on companies dealing with the island and removes the social stigma. However, in a state of emergency, exception applications should be fast-tracked, which is within the power of the presidency.
 
-\subsection{Diaoyu / Senkaku Islands}
+The Cuban government ought to be removed from the Sponsors of International Terrorism, which is entirely within the power of the presidency. Not only does this relieve the burden on ordinary Cuban people by removing automatic sanctions, it would also supplement the legitimacy of the list in the first place. Considering the actual history of counter-revolutionary terror-bombings carried out by Cuban-American proxies, the US lacks credibility on this matter.
 
-These famous uninhabited islands in the Ryukyu island chain are more politically sensitive than strategic. The One-China principle is the source of the dispute, owing to a short-sighted reversion of Okinawa to Japanese administration. The maritime rights to resources within the islands' area are certainly one cause for confrontation, but the specific confrontations beginning in the 2010s are based on the Mainland's dissatisfaction with its sphere of influence. Controlling the seas around China, not just the Diaoyutai, is part of a grander project of realising a dream of primacy in East Asia, primacy which was denied it during the Century of Humiliation. The Japanese and US do not see it this way, viewing Chinese interest in the islands as a threat to the liberal peace on the high seas.
-
-Japan and the Mainland found itself in a heated confrontation almost by accident. A Chinese fishing trawler refusing to leave the islands and colliding with JCG ships escalated into a full naval and air mobilisation on both sides to contest the sovereignty claims. The Obama administration affirmed the US commitment to defending the Japanese claim, which drew the red line the PRC did not want to cross yet. The Trump administration went the extra step of confirming \textit{in writing} that the Diaoyu/Senkaku Islands were protected by Article 5 of the US Japan Security Treaty.
-
-Can anything be done to reduce the likelihood of war over the islands? Hard to say. The Chinese strategy on the islands will be to divide the Japanese from the US, convincing one or the other that their partner will not come to their aid in this domain. The Japanese do not want to be coerced into compromising their territorial integrity in any way, so it is unlikely that their leaders would ever be willing to exchange the sovereingty rights for another political concession. The ball is in the US's court to emphasise its commitment to the red line Obama drew.
-
-\subsection{Nuclear Disarmament}
-
-Realist authors argue that this is part-and-parcel of Japan's ``buck-passing'' of its security needs to the US: it benefits more from a nuclear patron than if it pursued an arsenal of its own.\autocite{izumikawa2010antimilitarism}\autocite{lind2004pacifism} Others interpret Japan's rejection of military adventurism as an example of defensive realism, seeking to avoid the security trap of an arms race with continental powers. Today, it has become all but impossible for Japanese politicians to deny that they rely on US nuclear weapons, despite the Sato non-nuclear doctrine. Leading up to the 2017 Treaty on Prohibition of Nuclear Weapons, Japan resisted it on account of the US nuclear umbrella. The LDP leadership has called for the immediate, verifiable, and irreversible dismantling of the DPRK's nuclear weapons.
-
-Is this wise? Probably not, as theoretical models of the North's nuclear doctrine suggest what most observers already suspect: that the arsenal is a measure of last resort to guarantee the survival of the Kim dynasty.\autocite{lee2020dprk} Mounting pressure against the North would only encourage them to alter that doctrine to something far more risky, but the LDP has always contended that the Kims bear the blame for introducing risk to the situation.
-
-\section{Rearmament Revisited}
-
-The fact of the matter is that Japan \textit{has rearmed}. The question which Japan's rivals ask themselvs is simply for what can its arms be used. The Self-Defense Ground Forces are not sufficient to repel a full invasion, but they don't have to be: Japan relies on the natural defence of the sea and a defence-doctrine prioritising naval operations. The Maritime and Air Self-Defense Forces are also equipped to repel an invasion, not begin one; the Maritime Self-Defense Force has destroyers but no submarines or air craft carriers; the JASDF likewise specialises in detecting and eliminating enemy aircraft and seacraft.
-
-In the new millennium, Japanese security policy has shifted from static to ``dynamic'' deterrence -- rather than maintain a minimal force which can be rapidly expanded, the deterrent is constantly adjusted to match force it is likely to encounter. After the DPRK gained the ability to launch devastating strikes on short notice against Japan and the RoK, the hawks and wonks debated not whether pre-emptive strike capacity was permissible, but what kinds of capacities were \textit{necessary:}
-
-\begin{quote}
-    Ishiba and Maehara faced off in the Diet over the effectiveness of Japan’s deterrent posture, with Maehara arguing that the time had come to consider an offensive strike option that would give Tokyo more teeth should North Korea ever consider using its growing missile arsenal against Japan. Ishiba, without hesitation, agreed.\autocite[Chapter 3]{smith2019rearmed}
-\end{quote}
-
-Another confounding variable for deterrence is the increasing interoperability of modern defences, which can be just as easily used offensively against targets such as the PLA Navy.
-
-Obviously, the instigator is and has always been the DPRK, which provoked outrage in Japan when news broke that it had abducted Japanese nationals in the '70s. As one who shared in this outrage, Abe Shinzō remained steadfast in his position that talk is cheap with the Kims. No doubt also that Japan resents being left out of multilateral negotiations with the DPRK -- the fear of abandonment once again.
-
-\subsection{Article Nine}
-
-Article Nine of the Japanese Constitution renounces the right of the Japanese State to wage war:
-
-\begin{quote}
-  Aspiring sincerely to an international peace based on justice and order, the Japanese people forever renounce war as a sovereign right of the nation and the threat or use of force as means of settling international disputes.
-
-  In order to accomplish the aim of the preceding paragraph, land, sea, and air forces, as well as other war potential, will never be maintained. The right of belligerency of the state will not be recognised.
-\end{quote}
-
-Even with modern norms related to the legitimate employment of interstate violence, Article 9 is an extreme constraint on a sovereign state's rights. Although evidence suggests the codified renunciation of war was suggested by Prime Minister Shidehara, Military Governor MacArthur explicitly tied disarmament to a renewed idealism of collective security,\footnote{ \url{http://www.ndl.go.jp/constitution/e/shiryo/03/072/072_002l.html} }. Furthermore, MacArthur was acting on his own initiative rather than on instructions from Washington when he expressed his approval of the language in Article Nine (this would not be the last time MacArthur acted on his own initiative in East Asia).\autocite[45]{sissons1961pacifist}
-
-When the Korean War broke out, American occupation troops were deployed to the peninsula and replaced by National Police Reserves -- who were, for all intents and purposes, a standing army. The NPR was reorganised into the National Safety Agency in 1952, and then finally the Self-Defense Forces in 1954.
-
-By the Japanese interpretation of Article Nine, Japan enjoys the right to collective self-defence, though it has no right to exercise it.\autocite[127]{izumikawa2010antimilitarism} This quixotic view is quintessentially Japanese, which is how they integrate the UN charter with their own constitution.
-
-It ought to be asked, whether it was ever reasonable to demand unilateral disarmament from a sovereign nation, even one which committed such heinous war crimes (and was itself a victim of the unique brutality of two atomic bombings). Indeed, MacArthur and early PMs in Japan backpedalled rapidly from the absolutist rhetoric of Article 9, deliberately exploiting a loophole in the language to use Japan as a staging ground for the US expedition in Korea, overruling the objections of the Japanese Left in the Diet.\autocite[55]{sissons1961pacifist} Neutrality was nowhere stipulated in Article Nine, only a renunciation of offensive capabilities. The question bears extra importance to the revisionist factions of Japanese Nationalists,
-
-In 2014, a novel reinterpretation of Article Nine was introduced, allowing Japan to defend allies if war were declared on \textit{them}. Predictably, the DPRK and PRC expressed disapproval of the new ruling; the US supported it. The National Diet made moves to officialise this interpretation in 2015, citing maintaining ally-commitments as justification. In other words, fear of abandonment motivated this reinterpretation of Article 9;\footnote{\url{https://www.loc.gov/law/help/japan-constitution/interpretations-article9.php}} yet, despite expectations, the Trump administration doubled down on its commitment to Japanese defence.\autocite[242]{lind2018trump}
-
-\subsection{Lessons from West Germany}
-
-The Federal Republic of Germany's accession into the North Atlantic Treaty Organisation serves as an instructive historical lesson for the situation in Japan. Indeed, the first (and only) serious legal challenge to the constitutionality of the Self-Defence Forces invoked the West German rearmament in its argument.  Mosaburō Suzuki, leader of the Socialist party, argued unsuccessfully that the SDF-precursor, the NPR, maintained war-potential and its creation was a violation of Article Nine. The court dismissed the case, saying that no court had the authority to determine the constitutionality of the acts which created the NPR.\autocite[56]{sissons1961pacifist} Ever since, the language and interpretation of Article Nine has proven ``elastic'', subject to the external threat environment of Japan and domestic political pressures.
-
-The comparison to post-war Germany is apt, since it occurred in nearly an identical political context at roughly the same moment in history. The anti-traditionalist parties in the Diet were reflexively sceptical of any signs of renewed militarism in both Japan and Germany; likewise, neighbouring communist powers who suffered greatly at the hands of militarism worried for the same reasons. Adenauer's government in Bonn preferred remilitarisation and reunification on their own terms; the Western occupation zones were merged into the Federal Republic and a new Bundesweher was marshalled -- commanded by rehabilitated Nazis. Compare this to  Austria, which remained militarily neutral and had its territorial unity restored within a decade.
-
-One must concede that the comparison is somewhat obtuse: Japan was not partitioned like Germany or Austria after the War; the game was already played during the 1950s when the Korean War broke out; and the downfall of Konrad Adenauer marked the end of single-party dominance in the Bundestag, whereas the LDP continued to control Japan for decades after Kishi's resignation. But is the situation all that different, especially considering that South Korean solvency is a strategic priority for Japanese foreign policy and security? If there is any hope of de-escalating tensions between North and South Korea, it would necessarily preclude a more strident Japanese military posture.
-
-Another lesson to be taken from the West German example is the success of Willy Brandt's Ostpolitik. In 1970, the Chancellor knelt before the Memorial for the Warsaw Uprising, as a symbolic gesture of pennance on behalf of the German people. Granted, the event was accompanied by official recognition of the Polish-German border, so perhaps the genuflection mattered less than treaty terms. At any rate, Brandt's actions helped reduce tensions in the region as part of a broader balance-of-power which emerged with Détente around the world.
-
-The LDP leadership has insisted on constitutional revision since the Party's inception; the Abe administration in particular made it his personal ambition. While there is truth to his assertion that the Constitution did not originate from Japanese society, that it was not drafted by legal experts, and that the SDF's legality ought to be clarified, the fact still remains that \textit{Abe} and the LDP are the ones pushing for revision. Here, the broader context of history cannot be dismissed: historical revisionism in Japan is alive and well, and those who favour historical revisionism also favour constitutional revision. While Japanese PMs pointedly avoided visits in official capacities to Yasukuni shrine, the war-dead memorial which honours war criminals and ordinary soldiers alike, Abe was the first sitting prime minister to visit the shrine in his official capacity in 2013. When it comes to threat perceptions of Western Powers, it would behoove Japan and the US to avoid unnecessarily inflammatory acts, and to emulate Ostpolitik in East Asia.
-
-\section{Conclusion}
-
-To restate the main point in no uncertain terms: scrubbing Article Nine to counterbalance against a status-seeking China is a monstrously bad idea. Only the extreme right wing of Japanese politics consciences resuming the right to belligerency. The mission of prolonging international security would be ill-served by the Japanese state reclaiming the right to wage war.
-
-The more moderate approach, that of clarifying the legality of the SDF, also encounters several difficulties and political drawbacks. Clearer expectations of SDF actions in a kinetic scenario does not necessarily mean reduced uncertainty for Japan's regional rivals; it absolutely matters what the substance of the addenda to Article Nine are. There is no guarantee that revision will actually reduce the net quantity of risk in the region.
-
-From a historical perspective, it behooves the West to understand how Japanese messaging is easily misinterpreted by the intended receivers in East Asia. Japanese actions could be improved to emulate successful de-escalation policies in recent history. The unfortunate state of affairs in Okinawa, the Korean DMZ, and the South China sea is likely the best of all possible realities, tense and uncomforatble as it is. Maintaining that status quo through dynamic deterrence, which is the current doctrine of Japan, should be reconsidered.
+Beyond executive actions, the agenda for Cuban-American relations should include exploratory talks on other issues beyond the embargo, such as cultural and medical exchange, the Cuban offer to compensate American businesses, and so on. These ancillary issues may facilitate the two states finding a shared understanding which can enable greater diplomatic rapprochement. It will be necessary to identify red-line issues or disagreements which should be tabled indefinitely (à la the Shanghai Communiqué).
 
 \end{multicols}
+  \vfill
   \pagebreak
-
-\nocite{auslin2016foreignaffairs}
-\nocite{berkofsky2010protagonists}
-\nocite{hirata2009debate}
-\nocite{ichihara2020crisis}
-\nocite{iriye1990china}
-\nocite{izumikawa2010antimilitarism}
-\nocite{izumikawa2013attitudes}
-%\nocite{jain2009australia}
-\nocite{kimura2014coldwar}
-\nocite{lind2004pacifism}
-\nocite{lind2018trump}
-\nocite{maslow2015blueprint}
-\nocite{miller2011rearm}
-\nocite{smith2015intimate}
-\nocite{smith2019rearmed}
-\nocite{sissons1961pacifist}
-\nocite{takeshi1985domestic}
-\nocite{ueki2020deterrence}
-\nocite{xinbo2005end}
-\nocite{yiu1971prospect}
 
 
 \printbibliography[heading=bibintoc,title=Bibliography]
