@@ -21,6 +21,7 @@
     %\def\ttdefault{lmtt} %latin modern mono
     %\renewcommand{\familydefault}{\sfdefault} %switches default to sans serif
   \usepackage{microtype} %pretty kerning
+  \usepackage{dirtytalk} %easier to do quotation marks
   \usepackage{setspace} %setspace and setstrecth
   \usepackage{lipsum} %generates lorem ipsum
   %\usepackage{blindtext}
@@ -32,7 +33,7 @@
 
 %%Bibliograpy
 \usepackage{csquotes} %citations and block quotes
-  \usepackage[notes,backend=biber]{biblatex-chicago} %citation style
+  \usepackage[notes,backend=biber,useibid=true]{biblatex-chicago} %citation style
   \bibliography{cuba-biblio} %% CHANGE THIS ON NEW DOCS
   \usepackage[dvipsnames]{xcolor}
   \usepackage[citecolor=teal,]{hyperref} %%makes urls in biblio clickable, the [ is for the ibid links]
