@@ -1,0 +1,249 @@
+\documentclass[letterpaper,12pt,twoside]{article} %define template defaults, paper size, main font, \&c.
+  \usepackage[T1]{fontenc} %remove T2A to use other roman fonts, also have to remove all cyrillic text
+
+%%Fonts \& Typesetting
+   \usepackage{fontspec}%for XeLaTex, any OTF or TTF font installed will work
+    \setromanfont{New York Small} %roman often overrides main font
+    %\setromanfont{Hack}
+    \setsansfont{Lucida Sans Unicode}
+    %\setsansfont{Ubuntu}
+    \setmonofont{Hack}
+    \newfontfamily{\display}{New York Extra Large}
+    \newfontfamily{\displaysubtitle}{New York Large}
+  %%\usepackage's are for pdfLaTeX
+    %\usepackage{CormorantGaramond}
+    %\usepackage{lmodern}
+    %\usepackage{mathptmx} %Times new roman
+    %\usepackage{palatino}
+    %\usepackage{helvet} %Helvetica
+    %\usepackage{ebgaramond}
+    %\usepackage{garamondlibre}
+    %\def\ttdefault{lmtt} %latin modern mono
+    %\renewcommand{\familydefault}{\sfdefault} %switches default to sans serif
+  \usepackage{microtype} %pretty kerning
+  \usepackage{dirtytalk} %easier to do quotation marks
+  \usepackage{setspace} %setspace and setstrecth
+  \usepackage{lipsum} %generates lorem ipsum
+  %\usepackage{blindtext}
+
+%%Page Geometry
+\usepackage[top=1in, bottom=1in, left=0.75in, right=0.75in,headsep=0.2in]{geometry}
+  \usepackage{multicol}
+  \setlength{\columnsep}{0.5in}
+
+%%Bibliograpy
+\usepackage{csquotes} %citations and block quotes
+  \usepackage[notes,backend=biber,useibid=true]{biblatex-chicago} %citation style
+  \bibliography{cuba-biblio} %% CHANGE THIS ON NEW DOCS
+  \usepackage[dvipsnames]{xcolor}
+  \usepackage[citecolor=teal,]{hyperref} %%makes urls in biblio clickable, the [ is for the ibid links]
+  \hypersetup{urlcolor=RoyalBlue, colorlinks=true}
+  \renewcommand{\thefootnote}{\textcolor{black}{\arabic{footnote}}}
+  \renewcommand*{\bibfont}{\raggedright} %formatting Bib's font
+  \usepackage[ragged,hang,bottom]{footmisc} %footnote customisation package
+    \footnotemargin 0.125in %space between number and text
+    \addtolength{\skip\footins}{1pc plus 5pt} %space above footnote line
+    \interfootnotelinepenalty=10000 %% makes it near impossible for footnotes to be split across pages
+
+%%Environment Styling
+  \usepackage{titling} %Title Formatting
+    \pretitle{\sc\begin{flushleft}\Huge}
+    \posttitle{\par\end{flushleft}}
+    \preauthor{\begin{flushleft}
+    \Large \lineskip 0.5em}
+    \postauthor{\par\end{flushleft}}
+    \predate{\begin{flushleft}\large}
+    \postdate{\par\end{flushleft}}
+  \usepackage{sectsty} % Section Styling
+    \sectionfont{\sc\raggedright\singlespace\LARGE}
+    \subsectionfont{\sc\mdseries\singlespace\raggedright}
+  %% Sections use Roman Numerals
+    \renewcommand{\thesection}{\Roman{section}}
+    \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+  %% Table of Contents Styling
+    \usepackage[titles]{tocloft}
+    \renewcommand{\cftsecfont}{\color{RoyalBlue}}
+
+  \usepackage{etoolbox} %enables begin/end environment styling
+    \AtBeginEnvironment{quote}{\singlespacing\small}
+    \AtBeginEnvironment{abstract}{\setstretch{1.15}}
+    \AtBeginEnvironment{multicols}{\setstretch{1.15}}
+
+
+
+%%Watermarking
+  %\usepackage{draftwatermark}
+  %  \SetWatermarkText{D R A F T} %removed \sffamily if not XeLaTeX
+  %  \SetWatermarkScale{1}
+
+
+%% MAKETITLE STUFF
+\title{\Huge \display Ending the Embargo: \\ \LARGE \displaysubtitle Resetting Relations with Cuba}
+\author{\large Alexander Horne}
+\def\course{PS-6120} %defines the variable ``course''
+  \makeatletter %this sets variables for invoking title, author &c
+  \let\runauthor\@author
+  \let\runtitle\@title
+  \let\runCourse\course %invokes ``course''
+\date{} %using the Date for now
+\usepackage{nameref} %%Allows a running section name in header
+  \makeatletter
+  \newcommand*{\currentname}{\@currentlabelname}
+  \makeatother
+
+\usepackage{fancyhdr} %% Header/Footer stuff
+  \pagestyle{fancy}
+  %\chead{\runtitle}
+  %\rhead{\thesection}
+  %\lhead{\runCourse}
+  %\setlength{\headheight}{40pt}
+  \cfoot{} %keeps center empty
+  \fancyhead[RE,LO]{Alexander Horne}
+  \fancyhead[LE,RO]{\sc Ending the Embargo}
+  %\fancyhead[LE,RO]{\setmainfont{New York Small}\runauthor}
+  \fancyhf[FLE,FRO]{\thepage}
+  \fancyhf[FRE,FLO]{\runCourse}
+
+\usepackage{lettrine}
+
+\usepackage[nottoc,numbib]{tocbibind}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%
+%% BEGIN DOCUMENT
+%%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%\begin{CJK*}%{UTF8}{gbsn} %uncomment to reenable chinese
+\begin{titlepage}
+  \maketitle
+  %\vfill
+   %\begin{center}
+      %\includegraphics[width=1.5in]{care-logo.png}
+    %\end{center}
+\vfill
+
+\renewcommand{\abstractname}{\sc\large Executive Summary}
+\begin{abstract}
+
+    Since 1959, The United States has pursued a policy of economic warfare against the island of Cuba despite it never accomplishing the goal of regime change. The embargo, made law by Congress, harms the most vulnerable and marginalised people in Cuban society, makes it impossible for an entrepreneurial class to develop, and reveals the hypocrisy of American foreign policy. The time has come for the US to abandon this senseless Cold-War mindset and work as neighbours with Cuba to fight the deadly Coronavirus disease. If the US wants other countries to help enforce a ``rules-based international order,'' the US should begin by doing the same in its own sphere of influence. Though any change of policy will encounter stiff resistance from Congress and Florida, there still remain several opportunities to take action through Executive Orders.
+
+\end{abstract}
+%\smallskip
+
+\end{titlepage}
+
+{\hypersetup{hidelinks}
+  \tableofcontents
+  \addtocontents{toc}{~\hfill Page\par}
+}
+  \vfill
+  \pagebreak
+
+\begin{multicols}{2}
+
+\section{From Monroe to Castro}
+
+Any discussion of the embargo cannot begin with the 1959 revolution. The United States and Cuba have a long history stretching back centuries which coloured their relationship even before the Cold War. The broad strokes of this relationship persist even as everything else changes.
+
+Mainland North America was always Cuba's most natural trading partner, owing to its proximity. The antebellum slave economy of the American South viewed Cuba as a necessary bulwark against an uprising like in Haïti; annexing Cuba as a state was even considered as a way to maintain the preeminence of slave-states in the federal Senate. Under the Monroe doctrine, the US claimed the entirety of the Americas as under its sphere of influence, nominally to preserve the democratic spirit but in practice to facilitate US business interests. The 1898 Spanish American War began in Cuban territory and featured American expeditions on the island to kick out the Spanish. Even after independence in 1902, Cuba was a puppet state of the US, controlled by wealthy foreign interests yet buffeted by political coups, US occupation, and popular revolts.
+
+On 26th July 1953, Fidel Castro's cadres attacked the Moncada Barracks in Santiago before being captured by forces of the Fulgencio Batista regime. Many were executed, but Castro and his brother Raul were imprisoned before being released into exile in 1955. The 26-7 partisans returned to the island in 1956, beginning a years long campaign up the island from the south. The US supplied the Batista forces until 1958; the Soviet Union had no interest in supporting the revolutionaries with material until the fighting was almost finished.\autocite{samson2008soviets} The US recalled its ambassador and embargoed the government before Batista had even fled the country on New Year's Day of 1959.
+
+\textit{El Bloqueo}, the ``blockade'' in Spanish, was created piece-by-piece over 60 years. The arms embargo against Batista's regime carried over to sanction the Revolutionary government afterwards when Cuban latifundia were redistributed, a great many of which were foreign owned. The government offered to compensate the landholders with government bonds at the value evaluated by the previous government \autocite[Chapter 7.]{von2011red} -- an offer which was roundly rejected because the plantation owners had concealed the true value to evade taxes. Unable to purchase weapons to rearm the military after the revolution, Havana turned to Moscow as an export market in exchange for weapons. The American reaction intensified, leading to reduced sugar imports and a cutoff of US petrol exports to the island. The lame-duck Eisenhower administration severed relations in 1961. After the failure of the Brigada 2506 attack at Playa Gíron in 1961, the Cuban revolutionary government declared itself a Communist state and the US congress authorised full embargo. Throughout the early years of the blockade, the White House had considerable latitude to decide which goods would be permitted for trade, whereas later the Congress would encode those determinations by law.
+
+It was during the Reagan administration that the embargo intensified again, through executive orders at first which removed the humanitarian exemptions. The Cuban state was added to the International Sponsors of Terrorism list in 1982 in response to their support of the Sandinista movement in Nicaragua (no doubt Cuban support for Angolan communists against Apartheid South and Southwest Africa contributed to this decision); the designation triggered automatic sanctions.
+
+\subsection*{Since the Special Period}
+
+In the 1990s, congress passed the Cuban Democracy act and the Helms-Burton Act to block subsidiaries of US owned firms from conducting business with the island. Sanctions would apply to the individuals involved as well.
+
+With the collapse of its largest trading partner, the Soviet Union, the Cuban economy lost an important export market and fuel supply. Within 5 years, Cuba's GDP shrunk drastically by 35\%\autocite[155]{perez2009cuban}, necessitating drastic action. The government eliminated redundant ministries and slashed defence spending while devoting more resources to social welfare. (The ability of a party-state to weather a crisis by re-directing resources to regime-critical areas is why the embargo did not catalyse a counter-revolution). Nevertheless, the austerity measures were felt acutely: the US Department of Agriculture estimated that caloric intake fell from 3,000 per head in 1989 to 2,000 by 1996,\autocite[16]{usagro}. Compared to other communist or post-soviet countries at the time however, life expectancy did not decline but simply stagnated.
+
+Embargo-apologists will argue that the havoc wrought by sanctions is downstream from structural inefficiencies in state-managed economies. This is absurd. A 2018 UN study has concluded that the embargo cost the island 130 billion inflation adjusted US dollars over sixty years (over two billion per); compare that to its 2019 GDP of 103.1 billion USD, its most productive year yet.\autocite{worldbankcuba} This sum dwarfs the six billion dollars of US-owned assets seized over sixty years ago, raising the question of how much more damage is enough. Moreover, the embargo and sanctions regime makes it difficult for smaller enterprises to flourish in an environment of prolonged artificial scarcity. What small enterprises, one might ask? A fair question: during the special period, partial liberalisation of the economy allowed markets to price agricultural products and decriminalised the dollar. Along with macroeconomic structural readjustment, liberal economists \textit{got what they always wanted}, and yet the embargo continued as a means to punish human rights violations committed by the government. At some point, one must ask whether food shortages and a die-off of 20\% of Cuba's elderly\autocite[1379]{perez2009cuban} also constitutes a violation of human rights -- especially when the most powerful economy in the Western Hemisphere has the means and opportunity to relieve the suffering.
+
+At no point did Cuba possess its own weapons of mass destruction or the means to produce them. It certainly \textit{hosted} Soviet WMDs, but that was accepted practice between allies (NATO did the same in Italy, for instance, without suffering withering sanctions from the Eastern Bloc). Then why has the United States continued to treat Cuba as if it were as threatening to its security as North Korea or Iran?
+
+\subsection*{Obama-era Thaw}
+
+In 2016, President Obama made history by becoming the first sitting US head of state to visit Cuba in ninety years. Cuba was removed from the list of International Sponsors of Terrorism in 2015 by executive order and unopposed by Congress, which accompanied further relaxations in the embargo regime to permit greater monetary remittances to Cubans from abroad. The ``wet foot dry foot'' policy, which offered permanent US residence to any Cuban who set foot on US soil, was also ended by executive action in 2017. Important to recognise during this period is that the presidency still enjoys a great latitude to determine Cuba policy.
+
+\vfill
+\pagebreak
+\section{Current Crisis}
+
+The first generation of Cuban statesmen and women with no memory of the 1959 Revolution has entered politics; likewise, the citizens of Cuba have no personal memory of pre-Revolutionary Cuba. The people will be demanding more from their government and won't buy the same explanations for their hardship -- but Washington should not presume that the Cuban people are clamouring to overthrow the government either.
+
+\subsection*{Escalating Sanctions under Trump}
+
+The Trump Administration pursued a host of extra punitive measures against Cuba in the run up to the 2020 election. This included the removal of medical and humanitarian exemptions from the list of embargoed goods and services; money remittances from Cubans abroad to their families back home were also stopped. This last measure had a disproportionate effect on the poorest of Cuban society.
+
+\subsection*{Coronavirus \& Summer 2021}
+
+Despite its low level of economic development, Cuba's health system is recognised around the world as one of the best. Partly because medicines and equipment are in short supply or explicitly embargoed, Cuba developed independent manufacturing capacity, training, and research centers out of necessity as much as ideological commitment to national sovereignty. As the SARS-CoViD-19 epidemic mutated into a pandemic, the Cuban medical system developed its own vaccine independently. Remarkably, the Soberana vaccine beat the US-made vaccines to market. However, a shortage of hypodermic needles and syringes, not doses, meant that Cuba was unable to inoculate its citizens, so it began exporting the surplus doses to countries-in-need. As the pandemic continues, the Cuban government has accomplished much more than expected with far less, and the US is losing an important propaganda battle thanks to its commitment to embargo.
+
+The combination of escalating sanctions and pandemic-caused shortages in the global economy led Cubans to take to the street in protest of their government in August 2021. These were the largest protests the country had seen since the Special Period. Critical protestors were arrested by police and the US sanctioned several top police officials under the 2016 Global Magnitsky Act. Counter-protests in support of the regime were organised as well. It is reasonable to assume that both the US and the Cuban state had a hand in coordinating their respective demonstrations, but that many protestors on all sides marched of their own free will.
+
+This certainly appears to be the golden moment that an embargo was designed to produce: broken political promises and popular outrage in a period of acute economic crisis. But it would be a mistake for the US to pursue its own narrow self-interest, exploiting a global health crisis to remove a thorn in its side. The exact same crisis, pandemic aside, came and passed in the 1990s; Cuba's revolution survived intact while the Post-Soviet bloc experienced a decade of economic ``shock therapy'' and a precipitous collapse in living standards. What the world needs is for the US to work with its neighbours to fight threats like disease, poverty, and climate change, not against the ghosts of the Cold War.
+
+\vfill
+\pagebreak
+\section{Economic Warfare}
+
+Economic warfare leverages the centrality of one state in the world economic order to coerce other states into complying with its wishes, less physical harm be visited upon them. The harm is not overt violence at the end of a gun barrel, but indirect harm resulting from structures of violence in world economics. The deprivation of Cuba is an example to all other American countries which might consider resisting the will of the US -- the point is not to win, the cruelty is the point.
+
+\subsection*{Sanctions Kill}
+
+Sanctions have been employed to ``soften up'' targeted states before invasion, such as interbellum Iraq in the '90s.\autocite{crossette1995iraq} By depriving a state of the means to trade equitably with other countries. Humanitarian exceptions, such as food and medicine, are often allowed (but not always) but are not fully utilised. Nobody wants to be seen conducting business with a sanctioned state or official -- and certainly not for \textit{profit}.
+
+Sanctions and embargoes are not a one-size-fits-all tool. Ironically, because they require the target to be economically dependent on other states, they work best against tightly integrated economies -- which are typically \textit{not} political enemies in the first place. This is especially true for present-day Cuba, which has survived for 20 years without a major foreign patron and has learned to live without its natural trading partner, the United States, for 60 years.
+
+Sanctions also work best against governments which are bad at managing their minimal ruling coalition. Party-States, for all their inefficiency, are purpose designed to minimise internal contestation over resources.\autocite{escriba2010dealing} This is a key mistake the US has made -- Cuba is not a personalist dictatorship, no matter how beloved Castro was.
+
+\subsection*{The Definition of Insanity}
+
+It is cliché to remark that 60 years of the same policy with no result in sight is the definition of insanity. At least at the outset, the embargo made \textit{some} sense, even if it is considered an act of war under international law. The Cuban economy was historically dependent on trade with the US and the Cubans did offer terms for compensated land reform (which were refused). But in 2021, with the Soviet Union long gone and with only the US continuing to embargo the island, what purpose does this failed policy serve? The answer might be that the embargo is actually a domestic political matter in the US, not a strategic foreign policy. At the risk of sounding technocratic, domestic wedge issues should not override sane and sustainable foreign policy. Indeed, some of the greatest windfalls in US diplomatic history involved making ``nice'' with regimes far more bloodthirsty than Castro's Cuba.
+
+Sanctions were also successfully used to end white minority rule in South Africa and Rhodesia, but that does not mean that we should expect the embargo to have a similar effect in Cuba. First, the White Minority governments were always recognised as alien by Black Africans; the \textit{reverse} is true in post-revolutionary Cuba, where memories of ``\textit{gangsterismo''} and American cronyism still legitimate the regime. Second, the African National Congress was waging a viable insurgency in the region; the same cannot be said for Cuban Diaspora in the US. Those who did work with the US intelligence service bombed hotels and aircraft but never made serious efforts to land on the island after the Bay of Pigs. Third, the sanctions against Apartheid states had broad international support, including the former coloniser Britain. The same cannot be said for the US's Cuba embargo; it has been roundly condemned by the United Nations for 29 years straight.\autocite{un29condemn}
+
+
+\vfill
+\pagebreak
+\section{Recommendations}
+
+If the United States wants other countries to believe its call for a ``rules based international order'' is more than mere rhetoric, it begins with respecting international consensus around the embargo. Not only is this the ``right thing to do,'' it will also defang accusations that the US is politicising human rights in other regions. Lastly, lifting the embargo could finally create economic room for the Cuban entrepreneurial class to breathe -- which could ultimately be the beginning of \textit{actual} political change on the island.
+
+\subsection*{A New Strategy for Florida}
+
+As home to the largest Cuban-American community in the country, Florida's voters care a great deal about the embargo. However, this is not to say that they monolithically support the embargo: surveys have demonstrated that support for the embargo is neither constant\autocite{symbolic2010girard} nor universal.\autocite{grenier20182018} In recent elections, the Cuban-American community has tended to vote for the Republican Party in greater numbers with each year\autocite{krogstad_2021}, which is alarming if the Democrats want a key Latino constituency in a presidential swing state.
+
+However, continuing to pursue the Cuban vote \textit{as Cubans} is a mistake. For one, the memory of pre-revolutionary Cuba is fading fast, and young people of Cuban heritage who are raised to despise Castro will not be easily persuaded to vote Blue. There are other explanations for the rightward drift of Cuban Americans; the median age is older than other Latin-American demographics (which correlates with right-leaning voting preference); many are full citizens and not undocumented immigrants; as a demographic they are wealthier than other Latin-Americans.\autocite{noe-bustamante2019pew} The median Cuban-American Voter, therefore, is exactly who the Republicans specialise in appealing to: aging, wealthy, middle-class. But successive waves of Cuban emigrants also have different political priorities: the post-1995 cohort favour rapprochement on economic issues while the pre-1995 cohort stand resolutely against it.\autocite{grenier20182018} The Cuban Republicans are a firewall constituency on the right while the non-affiliated Cuban American voter finds little political representation in state elections and midterms. Most importantly, Grenier et al. found that a candidate's position on Cuba was the least important motivating issue for Cuban-American voters -- so why is this failed policy renewed every four years?
+
+These data should serve as the basis for a new Florida electoral strategy, from the White House down to City Council: a different pitch to Florida's voters is necessary to stop the bleeding. Chasing Republican-inclined constituencies has allowed Cuba policy to drag the Democratic platform in Florida away from a clear-sighted reasoning and into performative posturing which will never be hawkish enough. Worse still, this leaves the left-flank unguarded -- anybody remember Nixon in China?
+
+Since the embargo is ultimately enshrined in Congressional law, the only way to meaningful and irreversible progress in Cuba is a new electoral strategy. Perhaps it will require a foreign political shock to ``de-politicise'' ending the embargo, like the collapse of the Soviet Union made partial nuclear disarmament feasible. But if CoViD-19 serves any indication, it is that major world catastrophes only justify tighter sanctions. With change in Congress a distant dream, there still remains what the White House can accomplish unilaterally.
+
+\subsection*{Executive Actions}
+
+The Biden Administration has demonstrated the courage to do what is right on foreign policy, no matter the cost. The withdrawal from Afghanistan in 2021 was a long-overdue acknowledgement that the cause had been lost since 2002. It seems natural that a similar logic should extend to the Cuban embargo, which has lasted three times as long as the US expedition in Afghanistan. Maybe the administration has already burned through its remaining political capital, but the state of emergency surrounding the worldwide fight against CoViD-19 can justify the temporary alleviation of sanctions on a trial basis.
+
+Personal sanctions against individuals in the Cuban government are a preferable alternative to a broad embargo against the entire country; suffice to say that these should not be reconsidered.
+
+Business wishing to utilise the humanitarian exceptions to the embargo still face a significant amount of bureaucratic red tape to acquire permissions for business with Cuba. This obstacle is by design, not accidental; the only way to remove it will be ending the embargo across the board, which reduces the additional scrutiny on companies dealing with the island and removes the social stigma. However, in a state of emergency, exception applications should be fast-tracked, which is within the power of the presidency.
+
+The Cuban government ought to be removed from the Sponsors of International Terrorism, which is entirely within the power of the presidency. Not only does this relieve the burden on ordinary Cuban people by removing automatic sanctions, it would also supplement the legitimacy of the list in the first place. Considering the actual history of counter-revolutionary terror-bombings carried out by Cuban-American proxies, the US lacks credibility on this matter.
+
+Beyond executive actions, the agenda for Cuban-American relations should include exploratory talks on other issues beyond the embargo, such as cultural and medical exchange, the Cuban offer to compensate American businesses, and so on. These ancillary issues may facilitate the two states finding a shared understanding which can enable greater diplomatic rapprochement. It will be necessary to identify red-line issues or disagreements which should be tabled indefinitely (à la the Shanghai Communiqué).
+
+\end{multicols}
+  \vfill
+  \pagebreak
+
+
+\printbibliography[heading=bibintoc,title=Bibliography]
+
+
+%\end{CJK*} %uncomment to reenable chinese
+\end{document}

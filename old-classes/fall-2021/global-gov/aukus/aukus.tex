@@ -1,0 +1,238 @@
+\documentclass[letterpaper,12pt,twoside]{article} %define template defaults, paper size, main font, \&c.
+  \usepackage[T1]{fontenc} %remove T2A to use other roman fonts, also have to remove all cyrillic text
+
+%%Fonts \& Typesetting
+   \usepackage{fontspec}%for XeLaTex, any OTF or TTF font installed will work
+    \setromanfont{New York Small} %roman often overrides main font
+    %\setromanfont{Hack}
+    \setsansfont{Lucida Sans Unicode}
+    %\setsansfont{Ubuntu}
+    \setmonofont{Hack}
+    \newfontfamily{\display}{New York Extra Large}
+  %%\usepackage's are for pdfLaTeX
+    %\usepackage{CormorantGaramond}
+    %\usepackage{lmodern}
+    %\usepackage{mathptmx} %Times new roman
+    %\usepackage{palatino}
+    %\usepackage{helvet} %Helvetica
+    %\usepackage{ebgaramond}
+    %\usepackage{garamondlibre}
+    %\def\ttdefault{lmtt} %latin modern mono
+    %\renewcommand{\familydefault}{\sfdefault} %switches default to sans serif
+  \usepackage{microtype} %pretty kerning
+  \usepackage{dirtytalk} %easier to do quotation marks/
+  \usepackage{setspace} %setspace and setstrecth
+  \usepackage{lipsum} %generates lorem ipsum
+  %\usepackage{blindtext}
+
+%%Page Geometry
+\usepackage[top=1in, bottom=1in, left=0.75in, right=0.75in,headsep=0.2in]{geometry}
+  \usepackage{multicol}
+  \setlength{\columnsep}{0.5in}
+
+%%Bibliograpy
+\usepackage{csquotes} %citations and block quotes
+  \usepackage[backend=biber,notes,useibid=true,natbib]{biblatex-chicago} %citation style
+  \bibliography{aukus-biblio} %% CHANGE THIS ON NEW DOCS
+  \usepackage[dvipsnames]{xcolor}
+  \usepackage[citecolor=teal,]{hyperref} %%makes urls in biblio clickable, the [ is for the ibid links]
+  \hypersetup{urlcolor=RoyalBlue, colorlinks=true}
+  \renewcommand{\thefootnote}{\textcolor{black}{\arabic{footnote}}}
+  \renewcommand*{\bibfont}{\raggedright} %formatting Bib's font
+  \usepackage[ragged,hang,bottom]{footmisc} %footnote customisation package
+    \footnotemargin 0.125in %space between number and text
+    \addtolength{\skip\footins}{1pc plus 5pt} %space above footnote line
+    \interfootnotelinepenalty=10000 %% makes it near impossible for footnotes to be split across pages
+
+%%Environment Styling
+  \usepackage{titling} %Title Formatting
+    \pretitle{\sc\begin{flushleft}\Huge}
+    \posttitle{\par\end{flushleft}}
+    \preauthor{\begin{flushleft}
+    \Large \lineskip 0.5em}
+    \postauthor{\par\end{flushleft}}
+    \predate{\begin{flushleft}\large}
+    \postdate{\par\end{flushleft}}
+  \usepackage{sectsty} % Section Styling
+    \sectionfont{\sc\raggedright\singlespace\LARGE\color{RoyalBlue}}
+    \subsectionfont{\sc\mdseries\singlespace\raggedright}
+  %% Sections use Roman Numerals
+    \renewcommand{\thesection}{\Roman{section}}
+    \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+  %% Table of Contents Styling
+    \usepackage[titles]{tocloft}
+    \renewcommand{\cftsecfont}{\color{RoyalBlue}}
+
+  \usepackage{etoolbox} %enables begin/end environment styling
+    \AtBeginEnvironment{quote}{\singlespacing\small}
+    \AtBeginEnvironment{abstract}{\setstretch{1.15}}
+    \AtBeginEnvironment{multicols}{\setstretch{1.15}}
+
+%%Watermarking
+  %\usepackage{draftwatermark}
+  %  \SetWatermarkText{D R A F T} %removed \sffamily if not XeLaTeX
+  %  \SetWatermarkScale{1}
+
+
+%% MAKETITLE STUFF
+\title{\display Non-Proliferation in the Indo-Pacific}
+\author{Alexander Horne}
+\def\course{PS-6400} %defines the variable \say{course}
+  \makeatletter %this sets variables for invoking title, author &c
+  \let\runauthor\@author
+  \let\runtitle\@title
+  \let\runCourse\course %invokes \say{course}
+\date{} %using the Date for now
+\usepackage{nameref} %%Allows a running section name in header
+  \makeatletter
+  \newcommand*{\currentname}{\@currentlabelname}
+  \makeatother
+
+\usepackage{fancyhdr} %% Header/Footer stuff
+  \pagestyle{fancy}
+  %\chead{\runtitle}
+  %\rhead{\thesection}
+  %\lhead{\runCourse}
+  %\setlength{\headheight}{40pt}
+  \cfoot{} %keeps center empty
+  \fancyhead[RE,LO]{\runauthor}
+  \fancyhead[LE,RO]{\sc Non-Proliferation in the Indo-Pacific}
+  %\fancyhead[LE,RO]{\setmainfont{New York Small}\runauthor}
+  \fancyhf[FLE,FRO]{\thepage}
+  \fancyhf[FRE,FLO]{\runCourse}
+
+\usepackage{lettrine}
+
+\usepackage[nottoc,numbib]{tocbibind}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%
+%% BEGIN DOCUMENT
+%%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%\begin{CJK*}%{UTF8}{gbsn} %uncomment to reenable chinese
+\begin{titlepage}
+  \maketitle
+  %\vfill
+   %\begin{center}
+      %\includegraphics[width=1.5in]{care-logo.png}
+    %\end{center}
+\vfill
+
+\renewcommand{\abstractname}{\sc\large Executive Summary}
+\begin{abstract}
+
+    On the fifteenth of September, 2021, Australia, the United Kingdom, and the United States announced a trilateral security pact for the Indian and Pacific Ocean Regions. AUKUS, as the pact is known, is part of a decades long \say{pivot} towards Asia to counter the growing influence of Mainland China. As part of the agreement, the UK and the US will help Australia acquire eight conventionally-armed nuclear-powered submarines, raising the spectre of renewed nuclear proliferation in one of the most security critical regions of the world. This paper argues that, even within the confines of non-proliferation protocols, the political precedent which AUKUS estabilshes can open the door for similar technology sharing on all sides, which serves to undermine a historically effective international security regime. AUKUS members should commit to closing the loopholes around non-weapon fissile materials and should act as an example for the rest of the region to follow.
+
+\end{abstract}
+%\smallskip
+
+\end{titlepage}
+
+{\hypersetup{hidelinks}
+  \tableofcontents
+  \addtocontents{toc}{~\hfill Page\par}
+}
+  \vfill
+  \pagebreak
+
+\begin{multicols}{2}
+
+\section{Nuclear Power}
+
+The United States remains the only state in the world to have used nuclear weapons during war -- twice against civilian populations. At the time, the bomb was heralded as an efficient and modern weapon, able to kill thousands with far less hazard to US pilots. Since then, a small handful of other states have developed their own bombs: the Soviet Union (and thus its successor, the Russian Federation), the United Kingdom, France, China, Pakistan, India, and North Korea. During the Cold War, several other nations hosted the nuclear weapons of their allies, such as Cuba, Germany, Italy, Turkey, and parts of the former USSR. South Africa relinquished its nuclear weapons with the end of Apartheid; Israel denies possessing nuclear weapons, but it is speculated that they do (after all, an open secret is still a deterrent).  Lastly, there are countries which have attempted to develop their own nuclear weapons and have so far been prevented from doing so. Notable among these are Iran and Qaddafist Libya, the latter abandoning its plans in the mid-2000s.
+
+Since the 1970s, the US and Russia has had a glut of HEU which served no strategic purpose after arsenal parity was realised. Diluting the enriched material (downmixing) has made use of the excess stores for research and medical purposes, but there still remains several hundred tons of weapons-grade fuel searching for a use. In 1993, the United Nations General Assembly called for negotiations around a Fissile Material Cut-Off Treaty, which would prohibit the production of fuel for weapons. The Bush Administration reneged on US commitment to a multilateral verification regime in 2004; since then, Pakistan has blocked efforts to draft and implement the Conference on Disarmament's program.
+
+Nuclear energy remains a permitted use for fission technology under international atomic protocol. Countries on every continent either currently operate or plan to build nuclear reactors for civilian energy purposes. Reactors aboard navies allow ships to sail for years at a time without refuelling. What all reactors have in common is the high cost of decommissioning spent fuel and worn out reactors.
+
+As of 2015, there exist over 150 nuclear powered military vessels, over half operated by the US.\autocite[3]{hippel2016banning} US nuclear designs leveraged their pre-existing ability to generate weapons grade uranium (above 20\% U-235, though US weapons material is often above 90\%) for their reactors; this is well above the needed quality for a reactor. France, despite also possessing the means to enrich weapons-grade material, has explored the use of low-enriched uranium (ca. 5\% U-235) for its own naval reactors. Brazil has followed France's lead in this area but has reserved the right to pursue Highly Enriched Uranium if it proves worthwhile.
+
+The preference for High-Enriched Uranium cores in naval vessels has a simple explanation: the richer the fuel, the less is needed.\footnote{There is also a second, more prosaic explanation: HEU reactors and their maintenance are lucrative government contracts for the military-industrial complex, and civil power companies benefit from sharing uranium stockpiles with the military. (See \href{https://thebulletin.org/2021/11/australian-uk-us-nuclear-submarine-deal-exposes-civilian-military-links/}{Johnstone \& Stirling in \textit{The Bulletin}, 9 November 2021}). As renewable energy surpasses both petroleum and atomic sources in yield, the military-supply chain of fissile material is too bloated to survive intact while serving a shrinking market. \nocite{bulletin2021civil}} This keeps the size of the reactors small and extends the time before refuelling -- in some cases, long enough that the vessel is decommisioned before it runs out of fuel. US reactors can only be refuelled by slicing open the hull itself and welding it shut at the end, whereas the French install dedicated refuelling hatches to replenish their lower-mileage LEU cores. Thus, US subs without lifetime reactors spend nearly nine months in drydock for refuelling, while French subs spend only three.\autocite[24]{hippel2016banning} Vessels with lifetime cores are not designed with fuel conversion in mind, so if Australia is to receive US technology, it would either receive the partially dismantalable reactors or the lifetime reactors -- both of which rely on HEU.
+
+\subsection*{Australian Nuclear Power}
+
+As the only member of AUKUS not possessing nuclear weapons, the question remains how the country will develop the means to build and maintain a conventionally armed nuclear-powered navy. The island nation relies extensively on carbon for domestic energy, but it is the world's third largest producer of uranium. As member of the Nonproliferation Treaty since 1970, it imposes bilateral safeguards on exports of uranium mined on the island continent. Australia is also a founding member to the Treaty of Rarotonga, also known as the South Pacific Nuclear Free Zone, which prohibits testing, possessing, and using atomic arms within its members borders and territorial waters. Some might say therefore, that Australia would be the safest country to trust nuclear propulsion technology to, but this author is sceptical. Even if Australia has a sterling reputation and record on nuclear proliferation, it has followed its Anglophone allies into several misguided, destabilising, and fruitless conflicts since 1945. And there is not doubt a cultural bias in the West which trusts a white Non-Nuclear Weapon State with atomic propulsion that is not extended to nations like Brazil or Iran.
+
+As AUKUS begins planning what course the alliance will take, observers can only speculate. Findlay anticipates that the eight submarines will be constructed in South Australia for political purposes\autocite[5]{findlay2021not}. Since Australia currently possesses none of the facilities to enrich enough HEU or service a nuclear submarine, one would reasonably presume that they will rely on AUKUS partners in the near-term. However, it is unlikely that Australia will receive the reactors for at least a decade,\autocite{tsuruoka2021aukus} so time remains for Australia to build the capacity to maintain them if it wishes. Paradoxically, if Australia relies on its allies for HEU, this would assist non-proliferation efforts.\autocite[7]{carlson2021aukus}
+
+
+\vfill
+\pagebreak
+\section{The New Cold War}
+
+There were already attempts to make an \say{Indo-Pacific} NATO in the 20th Century. In East Asia, the Southeast Asia Treaty Organization (SEATO) formed in 1954. Its members included European colonial powers (France, UK) and countries colonised by those powers (Australia, New Zealand, Pakistan, Philippines, Thailand, United States). Vietnam, Cambodia, and Laos were protocol members while still under French control. This organisation dissolved in 1977, having mostly failed in its purpose of \say{containing} communism in East Asia.
+
+A similar fate befell the Central Treaty Organisation (CENTO), formed in 1955 and dissolving in 1979. Its members included the UK, Iran, Iraq, Pakistan, and Turkey. Its purpose was similar to NATO and SEATO -- containing the Soviet Union -- but its location, stretching across Southwest Asia, meant that the more pressing concern would be Arab-Israeli conflict and anti-colonial struggles. The regime changes in Iraq and Iran and the Turkish invasion of British controlled-Cyprus underlined the lack of political cohesion between member-states, leading to its inevitable dissolution.
+
+These alliances were not cohesive enough to last. Indeed, the question is why NATO survived while the others dissolved. What all these treaty organisations have in common is that they were negotiated with minimal input from the publics of the respective member states; the success of NATO is attributable to the genuine ties between members that transcended immediate strategic interest. Tsuruoka finds something similar binding the AUKUS members together: \say{They did not have to build a new alliance simply because they had long been more than just allies.}\autocite[3]{tsuruoka2021aukus}
+
+Today it is cliché to write that Mainland China's economic integration in the world economy raises the opportunity costs of military confrontation in its sphere of influence, but this is clearly what AUKUS is intended to accomplish. None of the members share immediate borders with Mainland China or have explicit mutual defence guarantees to Taiwan. They all can operate within China's self-proclaimed sphere of influence but at a safe-ish distance. This makes the refusal to consult with regional allies, such as Japan and South Korea, even more baffling, since they are more immediately threatened.
+
+The announcement of the AUKUS treaty coincided with a cancellation of Australia's plans to purchase conventionally-propelled submarines from France. It was very apparent that the French, like the rest of the Indo-Pacific region, were not consulted beforehand.\autocite[3]{perot2021aukus} This is quite unfortunate, considering that France may have proven to be a valuable partner to the pact, especially regarding LEU-propelled submarines.
+
+But the exclusivity is the point. AUKUS members are interested parties in the region but without an existential stake; the three already form the core of Five Eyes; Australia and UK both followed the US's misguided Mid-East wars since 2001. As British Admiral Tony Radakin explained: \say{Being three like-minded nations gives you an agility and a nimbleness to come together quite quickly and plan to potentially do quite big things.}\autocite[4]{tsuruoka2021aukus} Clearly, AUKUS intends to be a flexible and decisive triad to counter a deeply-embedded economic hegemon which relies on playing its adversaries against each other. Its small membership, however alienating, may prove why it succeeds where others have failed.
+
+\vfill
+\pagebreak
+\section{International Precedents}
+
+Nuclear naval technology is jealously guarded, but Naval Propulsion Reactors have been shared with other, including non-nuclear powers, in the past. Aside from Britain receiving American NPR after detonating its first WMD, Canada also attempted to nuclearise its subs in 1987 before deciding the investment too costly.\autocite[110]{moltz1998closing} India operated NPR submarines leased to them by the Soviet Union as training vessels -- a particularly worrying case, since India is not party to the Non-Proliferation Treaty at all. These subs ran on Russian HEU, but the Soviets took measures to ensure that India would return the subs with the cores intact (i.e., the fuel was not extracted and repurposed).\autocite{moltz1998closing} Pakistan responded by entering negotiations for a similar lease with Mainland China before talks sputtered out. The point is, sharing NPR technology has historically nudged Indo-Pacific powers towards a naval arms race. Even if Australia has no nuclear weapons of its own, AUKUS might finally break the soft taboo on NPR which has lasted so long, which could open the gates for nuclear armed navies to secure their second strike capacity with NPR.\autocite[112]{moltz1998closing} Allies of the US, such as South Korea,\autocite[9]{carlson2021aukus} are among the states who would likely pursue this capability.\autocite[7]{findlay2021not}
+
+\subsection*{The NPT Loophole}
+
+First, the success of the existing non-proliferation regime must be recognised. While full de-nuclearisation should be among the top security priorities of every country on Earth, it is to be commended that so few countries have obtained nuclear weapons while nuclear energy is widespread. Not all the credit goes to the IAEA and nuclear powers, of course -- but it needs to be stressed that the system has worked and can still work.
+
+However, in the Non-Proliferation of Nuclear Weapons Treaty, there exists a so-called loophole in Paragraph 14, where Non-Nuclear Weapons States can, for national security purposes, withdraw non-weapons material from International Atomic Energy Agency's safeguards. The IAEA has to approve of any withdrawal, but once the material is out of international sight, it is difficult to verify that the material is not being used for weapons.
+
+By the US military's own admission, it would take nearly 20 years to develop a working LEU alternative to their HEU systems. In the mean time, HEU is presumably the \textit{only} system that AUKUS members could use, which opens a serious gap for diversion of materials for weapons purposes. Relying on this loophole thus sets a precedent for less savoury actors around the world to acquire HEU through the backdoor, so to speak. If AUKUS successfully petitions for such a withdrawal, the agency's work might be politicised if it refuses to grant similar exemptions to other powers. Breaking this soft norm against proliferation can undermine the regime's perceived neutrality.
+
+Defenders of the NPT loophole might argue that it had always existed -- since 1958, in fact. The British navy, despite developing its own weapon, relied on US-made HEU for its vessels, and it would continue to receive the United States' spare HEU even after the Cold War ended.\autocite[39. Footnote 32.]{hippel2016banning} The extension of this same courtesy to Australia, therefore, is natural, even preferable, since Australia has neither atomic weapons nor civilian reactors. This argument does not change the fact that this loophole has long been recognised as a chink in the armour of the non-proliferation regime. Furthermore, the international context can only be compared most broadly. The IAEA had only just been established in 1957; by the '90s, strategic limitation treaties had begun curtailing and dismantling excess nuclear material. Today, the US has been \textit{modernising} its remaining arsenal, not diluting the existing HEU. The best solution, as von Hippel\autocite{hippel2016banning} argues, is truly proscribing the production of HEU for any purposes.
+
+As Kaplow argues, if one state (such as Australia) is exempts nuclear material for NPRs from IAEA safeguards, then other states (such as Iran) following suit will raise fewer alarm bells.\autocite[186]{kaplow2015canary} And even if Australia never develops the capacity to maintain and refuel their reactors, this could expand the Indo-Pacific naval arms race among Non-Nuclear Weapons States.
+
+
+\subsection*{Theoretical Model of LEU Supervision}
+
+When it comes to enforcement of IAEA safeguards, the credibility and effectiveness of the agency relies on their uniform application to all countries, not just \say{rogue states}. After the announcement of AUKUS in 2021, Carlson outlined various scenarios under which fuel could be diverted:\autocite[5]{carlson2021aukus}
+
+\begin{enumerate}
+  \item Diversion of enrichment plant output: This entails temporarily reconfiguring a plant to produce HEU
+  \item Diversion and enrichment at an undeclared site: This is self explanatory, although diversion from submarines is more difficult.
+  \item Diversion of spent fuel from storage for reprocessing: This involves recovering plutonium or remaining HEU that then remain in military (unsafeguarded) reserves.
+\end{enumerate}
+
+These are the challenges that the non-proliferation regime faces from the naval propulsion loophole.
+
+Brazil's LEU submarine program is a relevant case example which the AUKUS states should emulate. Although the Brazilian submarines rely on LEU, there is no reason why non-intrusive safeguards and IAEA supervision could not also monitor HEU production, as Philippe speculates is the case with Argentine oversight of Brazil's fuel reserves.\autocite[46]{philippe2014safeguarding} A civilian front-end would supervise the stockpile of fuel as it is enriched, recording its exact quantity and isotopic potency as it enters the military stockpile, where no enrichment facilities would be permitted under treaty. The security critical aspects of the propulsion systems would remain out of sight of international safeguards, and careful design of refuelling bases would permit inspectors to see only the fuel, the core, and nuclear waste and protect other sensitive information. Enrichment would not be allowed outside of international supervision; the exempted fissile materials would only be permitted for propulsion.\autocite[18]{rockwood2017} The isotopic potency of spent fuel would also be measured, providing another point of detection for inspectors to sniff out diversion of the spent fuel. And this is the key point: creating multiple points of detection without intruding into security-critical activities is possible and necessary to deter diversion and proliferation.
+
+One challenge of this model is that nuclear submarines are expected to spend years without refuelling, so undeclared sites for diverting the fuel could also be used to circumvent the safeguards, as Kaplow argues.\autocite[195]{kaplow2015canary} The silver lining is that exempting materials from safeguards will always invite more international scrutiny on a state's nuclear activities, making undeclared sights even more difficult to operate. And lastly, the opportunity cost of building a submarine purely for diverting fuel to a clandestine enrichment program is high -- why waste a years of time and money on such a risky adventure?
+
+\vfill
+\pagebreak
+\section{Recommendations}
+
+At this point, it would be ridiculous to call for a redrawing of the AUKUS charter. If AUKUS is to succeed where SEATO failed, then it ought to provide an example in practice of what its members expect of Mainland China, North Korea, and Iran. There remain obvious solutions to the problem of HEU proliferation through a backdoor -- solutions which build on previous efforts and positions the US has taken.
+
+First, the Biden administration should express its resolute commitment to a Fissile Material Cutoff Treaty. President Clinton lent his voice to the process by calling for an FMCT at the UN in 1993; the Obama administration likewise reversed Bush's position to support the Conference on Disarmament. If Biden expects the rest of the world to believe that a \say{rules based international order} is more than mere rhetoric, it starts with US commitment to multilateral nuclear policy.
+
+Second, flowing from renewed support for an FMCT, the US should begin immediately designing LEU reactors for its navy and its allies. The cold shoulder which France received from Australia was a mistake, since they are already the pioneers in the field, but this merely underscores the lack of effort the US has put into developing similar reactors for a post-FMCT world. Careful design of the enrichment and refuelling facilities would allow international inspectors to monitor the composition of reactor fuel while preserving the security-critical aspects of enrichment; once installed, the fuel would be difficult to repurpose.
+
+Third, AUKUS should seek to implement non-intrusive safeguards around the fuel for the new submarines. Through its actions, AUKUS should model its ultimate vision for the Indo-Pacific region by respecting the soft norms on the NPT loophole rather than exploiting it for geostrategic rebalancing.
+
+\end{multicols}
+  \vfill
+  \pagebreak
+
+\nocite{philippe2014safeguarding}
+\nocite{costa2017brazil}
+\nocite{stewart2021bulletin}
+
+\printbibliography[heading=bibintoc,title=Bibliography]
+
+
+%\end{CJK*} %uncomment to reenable chinese
+\end{document}

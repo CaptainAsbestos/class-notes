@@ -1,0 +1,124 @@
+\documentclass[letterpaper,12pt,twoside]{article} %define template defaults, paper size, main font, \&c.
+  \usepackage[T1]{fontenc} %remove T2A to use other roman fonts, also have to remove all cyrillic text
+
+%%Fonts \& Typesetting
+  \usepackage{microtype} %pretty kerning
+  \usepackage{dirtytalk} %easier to do quotation marks
+  \usepackage{setspace} %setspace and setstrecth
+  \usepackage{lipsum} %generates lorem ipsum
+  %\usepackage{blindtext}
+  \usepackage{mathptmx}
+
+%%Page Geometry
+\usepackage[top=1in, bottom=1in, left=0.75in, right=0.75in,headsep=0.2in]{geometry}
+  \usepackage{multicol}
+  \setlength{\columnsep}{0.5in}
+
+%%Bibliograpy
+\usepackage{csquotes} %citations and block quotes
+  \usepackage[notes,backend=biber,useibid=true]{biblatex-chicago} %citation style
+  \bibliography{mena.bib} %% CHANGE THIS ON NEW DOCS
+  \usepackage[dvipsnames]{xcolor}
+  \usepackage[citecolor=teal,]{hyperref} %%makes urls in biblio clickable, the [ is for the ibid links]
+  \hypersetup{urlcolor=RoyalBlue, colorlinks=true}
+  \renewcommand{\thefootnote}{\textcolor{black}{\arabic{footnote}}}
+  \renewcommand*{\bibfont}{\raggedright} %formatting Bib's font
+  \usepackage[ragged,hang,bottom]{footmisc} %footnote customisation package
+    \footnotemargin 0.125in %space between number and text
+    \addtolength{\skip\footins}{1pc plus 5pt} %space above footnote line
+    \interfootnotelinepenalty=10000 %% makes it near impossible for footnotes to be split across pages
+
+%%Environment Styling
+  \usepackage{titling} %Title Formatting
+    \pretitle{\sc\begin{flushleft}\Huge}
+    \posttitle{\par\end{flushleft}}
+    \preauthor{\begin{flushleft}
+    \Large \lineskip 0.5em}
+    \postauthor{\par\end{flushleft}}
+    \predate{\begin{flushleft}\large}
+    \postdate{\par\end{flushleft}}
+  \usepackage{sectsty} % Section Styling
+    \sectionfont{\sc\raggedright\singlespace\LARGE}
+    \subsectionfont{\sc\mdseries\singlespace\raggedright}
+  %% Sections use Roman Numerals
+    \renewcommand{\thesection}{\Roman{section}}
+    \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+  %% Table of Contents Styling
+    \usepackage[titles]{tocloft}
+    \renewcommand{\cftsecfont}{\color{RoyalBlue}}
+
+  \usepackage{etoolbox} %enables begin/end environment styling
+    \AtBeginEnvironment{quote}{\singlespacing\small}
+    \AtBeginEnvironment{abstract}{\setstretch{1.15}}
+    \AtBeginEnvironment{multicols}{\setstretch{1.15}}
+
+
+
+%%Watermarking
+  %\usepackage{draftwatermark}
+  %  \SetWatermarkText{D R A F T} %removed \sffamily if not XeLaTeX
+  %  \SetWatermarkScale{1}
+
+
+%% MAKETITLE STUFF
+\title{\Huge The One-State Reality \& the Blame Game}
+\author{\large Alexander Horne}
+\def\course{MENA Politics} %defines the variable ``course''
+  \makeatletter %this sets variables for invoking title, author &c
+  \let\runauthor\@author
+  \let\runtitle\@title
+  \let\runCourse\course %invokes ``course''
+\date{} %using the Date for now
+\usepackage{nameref} %%Allows a running section name in header
+  \makeatletter
+  \newcommand*{\currentname}{\@currentlabelname}
+  \makeatother
+
+\usepackage{fancyhdr} %% Header/Footer stuff
+  \pagestyle{fancy}
+  %\chead{\runtitle}
+  %\rhead{\thesection}
+  %\lhead{\runCourse}
+  %\setlength{\headheight}{40pt}
+  \cfoot{} %keeps center empty
+  \fancyhead[RE,LO]{Alexander Horne}
+  \fancyhead[LE,RO]{\sc The One-State Reality}
+  %\fancyhead[LE,RO]{\setmainfont{New York Small}\runauthor}
+  \fancyhf[FLE,FRO]{\thepage}
+  \fancyhf[FRE,FLO]{\runCourse}
+
+\usepackage{lettrine}
+
+\usepackage[nottoc,numbib]{tocbibind}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%
+%% BEGIN DOCUMENT
+%%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+
+\lettrine[lraise=0.1, nindent=0em, slope=-.5em]{V}{oici} un exemple \lipsum \autocite[17]{omalley2017israel}
+
+\end{multicols}
+
+\nocite{kelman2018onetwo}
+\nocite{lustick2019paradgim}
+\nocite{kear2022wasatiyyah}
+\nocite{omalley2017israel}
+\nocite{scheindlin2016confederalism}
+\nocite{munayyer2019there}
+\nocite{gordon2012western}
+\nocite{farsakh2011one}
+
+\vfill
+\pagebreak
+\printbibliography
+
+\end{document}
