@@ -124,3 +124,54 @@ Joslyn also applied this approach to the flipside: what do Americans think cause
 You could also break down public opinion by other variables, such as age. See what the difference in opinion between generational cohorts
 
 If you want to change public policy in a democracy, you change public opinion. If you want to change public opinion, you have to make people reassess the causes which they attribute to social problems. 
+
+\pagebreak
+
+# Media Effects
+
+Epistemic bubbles – you don't tune into the news, news finds you 
+
+News orgs also try to bolster their ratings but how do you do that when people are polarised by affect? Focus on the horserace – it's content agnostic, relies on "objective information" and therefore can't be called partisan biased
+
+## Effects of the Horserace
+
+Media sets the agenda and primes audiences with evaluation criteria for candidates
+
+- This leads audiences to distrust politicians and seek them only as cynically election seekers (not public servants with political philosophy)
+    * "why is biden doing xyz, well because he's losing the election" … a year out from election day 
+    * Closer the election, the more attention, the more ad revenue – profit incentives determine how political news gets covered
+    * isn't it wise for voters to distrust politicians?
+- Supresses/bolsters turnout 
+- Less information on candidate's programs or controversies
+- No attention given to third parties – throw your vote away
+
+## Partisan bias in Media
+
+Coverage after election: the honeymoon period is a bygone phenomenon since Trump. Even Biden has experienced more negative coverage in first 60 days than positive (though largest proportion is neither positive/negative)
+
+Perhaps this explains why his public approval was never higher than 55\%? Maybe it's cause the media primed audiences to be that way
+
+## Shrinking Soundbites
+
+Since the invention of TV news, the average length a candidate gets to shown to an audience (43 seconds) in 1968; today it's less than 8. Network anchors fill the air interpreting what a candidate says
+
+- Shorter soundbites are easier to cut around
+- Audiences have goldfish attention spans
+- As a result, candidates now *try* to speak in soundbites – how the hell is that good for public discourse?
+- Second adaptation, candidates try to circumvent legacy media and speak directly to public through new media (the internet)
+
+Upshot: polarisation is not over-determined; it is socially contingent on socialisation and media effects on electoral politics
+
+\pagebreak
+
+# Elections
+
+Selectorate model: democracies only work when leaders can be made to answer to the public for their actions
+
+Ideally, elections produce accountability. In practice, there's lots more consequences of electoral politics
+
+Elections Socialise citizens to passive political activity: "we come to believe that elections are the *proper* form of political participation/expression" rather than protesting, striking, \&c. 
+
+Elections institutionalise access to power. This is by design: the authority of the state can never be seriously challenged at the ballot box
+
+Elections legitimise the state: bourgeois democracy
